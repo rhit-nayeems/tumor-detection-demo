@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Tumor Detection</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <main>
+    <h1>Tumor Detection</h1>
+    <p>These are validation scans from the AutoPET dataset. The demo runs the classifier on features already extracted from each PET/CT scan.</p>
+    <form id="prediction-form">
+      <label class="field" for="scan">Select a Scan
+        <select id="scan" disabled><option>Loading scans…</option></select>
+      </label>
+      <button id="predict" type="submit" disabled>Predict</button>
+    </form>
+    <p id="error" role="alert" hidden></p>
+    <section class="panel" aria-label="Probabilities">
+      <h2>Probabilities</h2>
+      <div class="bar-label"><span>Tumor</span><output id="tumor-score">—</output></div>
+      <progress id="tumor-bar" max="1" value="0" aria-label="Tumor probability"></progress>
+      <div class="bar-label"><span>No tumor</span><output id="negative-score">—</output></div>
+      <progress id="negative-bar" max="1" value="0" aria-label="No tumor probability"></progress>
+    </section>
+    <section class="results" aria-live="polite" aria-atomic="true">
+      <div class="panel"><h2>Prediction</h2><output id="prediction">—</output></div>
+      <div class="panel"><h2>Actual Result</h2><output id="actual">—</output></div>
+      <div class="panel"><h2>Correct?</h2><output id="correct">—</output></div>
+    </section>
+  </main>
+</body>
+</html>

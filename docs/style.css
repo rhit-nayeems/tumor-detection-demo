@@ -1,0 +1,40 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18.2px;
+  color: #111;
+  background: #e5e5e5;
+  --panel: #f5f5f5;
+  --input: #fff;
+  --border: #c0c0c0;
+  --muted: #525252;
+  --track: #d4d4d4;
+  --bar: #525252;
+  --button: #171717;
+  --button-text: #f5f5f5;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1040px; margin: 32px auto; padding: 0 24px 32px; }
+h1 { font-size: 33.8px; line-height: 1.2; margin: 0 0 16px; }
+p { line-height: 1.5; margin: 0 0 24px; }
+h2 { font-size: 15.6px; font-weight: 600; margin: 0 0 16px; color: var(--muted); }
+.field { display: block; font-size: 15.6px; font-weight: 600; }
+select { display: block; width: 100%; margin-top: 10px; padding: 12px; font: inherit; font-size: 18.2px; color: inherit; background: var(--input); border: 1px solid var(--border); border-radius: 8px; }
+button { width: 100%; margin: 16px 0; padding: 13px; font: inherit; font-size: 20.8px; font-weight: 600; color: var(--button-text); background: var(--button); border: 1px solid var(--border); border-radius: 8px; cursor: pointer; }
+button:hover { opacity: .85; }
+button:disabled { opacity: .5; cursor: wait; }
+:focus-visible { outline: 3px solid #888; outline-offset: 3px; }
+.panel { border: 1px solid var(--border); border-radius: 8px; padding: 18px; background: var(--panel); min-width: 0; }
+.bar-label { display: flex; justify-content: space-between; gap: 16px; margin-bottom: 8px; }
+progress { display: block; appearance: none; border: 0; border-radius: 5px; overflow: hidden; width: 100%; height: 16px; background: var(--track); margin-bottom: 18px; }
+progress:last-child { margin-bottom: 0; }
+progress::-webkit-progress-bar { background: var(--track); }
+progress::-webkit-progress-value { background: var(--bar); }
+progress::-moz-progress-bar { background: var(--bar); }
+.results { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 16px; }
+.results output { font-size: 20.8px; }
+#error { margin-top: 12px; }
+@media (max-width: 600px) { main { padding: 0 16px 24px; margin-top: 24px; } .results { grid-template-columns: 1fr; } }
+@media (prefers-color-scheme: dark) {
+  :root { color: #e5e5e5; background: #111; --panel: #202020; --input: #171717; --border: #525252; --muted: #c0c0c0; --track: #404040; --bar: #c0c0c0; --button: #c0c0c0; --button-text: #111; }
+}
