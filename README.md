@@ -2,7 +2,7 @@
 
 PET/CT tumor classification demo using 315 AutoPET validation scans and precomputed encoder features.
 
-[Live demo](https://rhit-nayeems.github.io/tumor-detection-demo/) | [Project code](https://github.com/rhit-nayeems/tumor-detection-model)
+[Live demo](https://rhit-nayeems.github.io/tumor-detection-demo/) | [Project code](https://github.com/rhit-steelevw/tumor-detection-model)
 
 Run locally:
 
