@@ -1,0 +1,241 @@
+{
+ "model": "nnU-Net segmentation decoder",
+ "checkpoint": "checkpoint_best.pth",
+ "checkpointSha256Short": "a53d9c4b",
+ "threshold": 0.5,
+ "samples": [
+  {
+   "sample": 1,
+   "tracer": "fdg",
+   "lesionVoxels": 520,
+   "recall": 0.998,
+   "precision": 0.361,
+   "dice": 0.53,
+   "peakInsideLesion": true,
+   "images": {
+    "peak": {
+     "axial": "segmentation/sample-1-peak-axial.webp",
+     "coronal": "segmentation/sample-1-peak-coronal.webp",
+     "sagittal": "segmentation/sample-1-peak-sagittal.webp"
+    },
+    "lesion": {
+     "axial": "segmentation/sample-1-lesion-axial.webp",
+     "coronal": "segmentation/sample-1-lesion-coronal.webp",
+     "sagittal": "segmentation/sample-1-lesion-sagittal.webp"
+    }
+   }
+  },
+  {
+   "sample": 2,
+   "tracer": "fdg",
+   "lesionVoxels": 14690,
+   "recall": 0.822,
+   "precision": 0.569,
+   "dice": 0.673,
+   "peakInsideLesion": true,
+   "images": {
+    "peak": {
+     "axial": "segmentation/sample-2-peak-axial.webp",
+     "coronal": "segmentation/sample-2-peak-coronal.webp",
+     "sagittal": "segmentation/sample-2-peak-sagittal.webp"
+    },
+    "lesion": {
+     "axial": "segmentation/sample-2-lesion-axial.webp",
+     "coronal": "segmentation/sample-2-lesion-coronal.webp",
+     "sagittal": "segmentation/sample-2-lesion-sagittal.webp"
+    }
+   }
+  },
+  {
+   "sample": 3,
+   "tracer": "fdg",
+   "lesionVoxels": 12399,
+   "recall": 0.976,
+   "precision": 0.86,
+   "dice": 0.914,
+   "peakInsideLesion": true,
+   "images": {
+    "peak": {
+     "axial": "segmentation/sample-3-peak-axial.webp",
+     "coronal": "segmentation/sample-3-peak-coronal.webp",
+     "sagittal": "segmentation/sample-3-peak-sagittal.webp"
+    },
+    "lesion": {
+     "axial": "segmentation/sample-3-lesion-axial.webp",
+     "coronal": "segmentation/sample-3-lesion-coronal.webp",
+     "sagittal": "segmentation/sample-3-lesion-sagittal.webp"
+    }
+   }
+  },
+  {
+   "sample": 4,
+   "tracer": "fdg",
+   "lesionVoxels": 3874,
+   "recall": 0.941,
+   "precision": 0.866,
+   "dice": 0.902,
+   "peakInsideLesion": true,
+   "images": {
+    "peak": {
+     "axial": "segmentation/sample-4-peak-axial.webp",
+     "coronal": "segmentation/sample-4-peak-coronal.webp",
+     "sagittal": "segmentation/sample-4-peak-sagittal.webp"
+    },
+    "lesion": {
+     "axial": "segmentation/sample-4-lesion-axial.webp",
+     "coronal": "segmentation/sample-4-lesion-coronal.webp",
+     "sagittal": "segmentation/sample-4-lesion-sagittal.webp"
+    }
+   }
+  },
+  {
+   "sample": 5,
+   "tracer": "fdg",
+   "lesionVoxels": 53157,
+   "recall": 0.73,
+   "precision": 0.977,
+   "dice": 0.836,
+   "peakInsideLesion": true,
+   "images": {
+    "peak": {
+     "axial": "segmentation/sample-5-peak-axial.webp",
+     "coronal": "segmentation/sample-5-peak-coronal.webp",
+     "sagittal": "segmentation/sample-5-peak-sagittal.webp"
+    },
+    "lesion": {
+     "axial": "segmentation/sample-5-lesion-axial.webp",
+     "coronal": "segmentation/sample-5-lesion-coronal.webp",
+     "sagittal": "segmentation/sample-5-lesion-sagittal.webp"
+    }
+   }
+  },
+  {
+   "sample": 6,
+   "tracer": "psma",
+   "lesionVoxels": 6152,
+   "recall": 0.049,
+   "precision": 0.765,
+   "dice": 0.091,
+   "peakInsideLesion": true,
+   "images": {
+    "peak": {
+     "axial": "segmentation/sample-6-peak-axial.webp",
+     "coronal": "segmentation/sample-6-peak-coronal.webp",
+     "sagittal": "segmentation/sample-6-peak-sagittal.webp"
+    },
+    "lesion": {
+     "axial": "segmentation/sample-6-lesion-axial.webp",
+     "coronal": "segmentation/sample-6-lesion-coronal.webp",
+     "sagittal": "segmentation/sample-6-lesion-sagittal.webp"
+    }
+   }
+  },
+  {
+   "sample": 7,
+   "tracer": "psma",
+   "lesionVoxels": 3848,
+   "recall": 0.573,
+   "precision": 0.714,
+   "dice": 0.636,
+   "peakInsideLesion": true,
+   "images": {
+    "peak": {
+     "axial": "segmentation/sample-7-peak-axial.webp",
+     "coronal": "segmentation/sample-7-peak-coronal.webp",
+     "sagittal": "segmentation/sample-7-peak-sagittal.webp"
+    },
+    "lesion": {
+     "axial": "segmentation/sample-7-lesion-axial.webp",
+     "coronal": "segmentation/sample-7-lesion-coronal.webp",
+     "sagittal": "segmentation/sample-7-lesion-sagittal.webp"
+    }
+   }
+  },
+  {
+   "sample": 8,
+   "tracer": "psma",
+   "lesionVoxels": 46,
+   "recall": 0.0,
+   "precision": 0.0,
+   "dice": 0.0,
+   "peakInsideLesion": false,
+   "images": {
+    "peak": {
+     "axial": "segmentation/sample-8-peak-axial.webp",
+     "coronal": "segmentation/sample-8-peak-coronal.webp",
+     "sagittal": "segmentation/sample-8-peak-sagittal.webp"
+    },
+    "lesion": {
+     "axial": "segmentation/sample-8-lesion-axial.webp",
+     "coronal": "segmentation/sample-8-lesion-coronal.webp",
+     "sagittal": "segmentation/sample-8-lesion-sagittal.webp"
+    }
+   }
+  },
+  {
+   "sample": 9,
+   "tracer": "psma",
+   "lesionVoxels": 447,
+   "recall": 0.112,
+   "precision": 0.249,
+   "dice": 0.154,
+   "peakInsideLesion": false,
+   "images": {
+    "peak": {
+     "axial": "segmentation/sample-9-peak-axial.webp",
+     "coronal": "segmentation/sample-9-peak-coronal.webp",
+     "sagittal": "segmentation/sample-9-peak-sagittal.webp"
+    },
+    "lesion": {
+     "axial": "segmentation/sample-9-lesion-axial.webp",
+     "coronal": "segmentation/sample-9-lesion-coronal.webp",
+     "sagittal": "segmentation/sample-9-lesion-sagittal.webp"
+    }
+   }
+  },
+  {
+   "sample": 10,
+   "tracer": "psma",
+   "lesionVoxels": 410,
+   "recall": 0.52,
+   "precision": 0.256,
+   "dice": 0.343,
+   "peakInsideLesion": false,
+   "images": {
+    "peak": {
+     "axial": "segmentation/sample-10-peak-axial.webp",
+     "coronal": "segmentation/sample-10-peak-coronal.webp",
+     "sagittal": "segmentation/sample-10-peak-sagittal.webp"
+    },
+    "lesion": {
+     "axial": "segmentation/sample-10-lesion-axial.webp",
+     "coronal": "segmentation/sample-10-lesion-coronal.webp",
+     "sagittal": "segmentation/sample-10-lesion-sagittal.webp"
+    }
+   }
+  }
+ ],
+ "groups": {
+  "all": {
+   "scans": 10,
+   "recall": 0.652,
+   "precision": 0.641,
+   "dice": 0.583,
+   "peakInside": 7
+  },
+  "fdg": {
+   "scans": 5,
+   "recall": 0.941,
+   "precision": 0.86,
+   "dice": 0.836,
+   "peakInside": 5
+  },
+  "psma": {
+   "scans": 5,
+   "recall": 0.112,
+   "precision": 0.256,
+   "dice": 0.154,
+   "peakInside": 2
+  }
+ }
+}
