@@ -1,6 +1,6 @@
 import { predict, describeFeature, featureIndex, removeFeatures, featureEffects, zScore } from "./inference.mjs";
-import { renderSegmentation } from "./segmentation.mjs";
-import { renderScanImaging } from "./scan-imaging.mjs";
+import { renderSegmentation } from "./segmentation.mjs?v=ct-pet-315";
+import { renderScanImaging } from "./scan-imaging.mjs?v=ct-pet-315";
 
 const SPOTLIGHT = { channel: 286, pooling: "patch-max" };
 const TOP_N = 10;
@@ -179,7 +179,7 @@ if (model && scans) {
     console.error(error);
   }
   try {
-    const imaging = await loadJSON("imaging.json");
+    const imaging = await loadJSON("imaging.json?v=ct-pet-315");
     imagingViewer = renderScanImaging(get("scan-imaging"), imaging, scans, chooseScan);
   } catch (error) {
     get("scan-imaging").textContent = "CT/PET images could not load. Please refresh the page.";
