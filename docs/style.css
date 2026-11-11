@@ -77,6 +77,10 @@ button.row[aria-pressed="true"] .row-label { text-decoration: line-through; }
 button.row[aria-pressed="true"] .bar { opacity: .35; }
 
 #segmentation { margin-top: 40px; }
+#scan-imaging { margin-top: 32px; }
+.overlay-control { display: flex; align-items: center; gap: 8px; font-size: 15px; }
+.overlay-control input { width: 18px; height: 18px; }
+.imaging-viewer h4 { margin: 20px 0 8px; }
 #segmentation section { margin-top: 16px; }
 #tracer-note { margin: 8px 0 0; font-size: 14px; }
 .big-numbers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 12px 0; }

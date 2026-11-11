@@ -32,6 +32,7 @@
       <div class="panel"><h2>Actual Result</h2><output id="actual">—</output><p id="tracer-note" hidden></p></div>
       <div class="panel"><h2>Correct?</h2><output id="correct">—</output></div>
     </section>
+    <section id="scan-imaging" aria-label="Selected scan CT and PET"></section>
     <section id="explain" hidden>
       <h2>What is the classifier relying on?</h2>
       <p>The classifier reads 640 numbers per scan. The first 320 are the average of each encoder channel across the scan, and the last 320 are the maximum of each channel. Removing a feature sets it to its training average, so the classifier sees nothing unusual there, and then the prediction is recalculated.</p>

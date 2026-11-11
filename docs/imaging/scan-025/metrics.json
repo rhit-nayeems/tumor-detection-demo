@@ -1,0 +1,78 @@
+{
+  "scanIndex": 24,
+  "scanName": "Scan 025",
+  "caseId": "fdg_1a90052cb2_09-06-2003-NA-PET-CT Ganzkoerper  primaer mit KM-80674",
+  "tracer": "fdg",
+  "checkpoint": "checkpoint_ep760.pth",
+  "checkpointSha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+  "actual": 0,
+  "lesionVoxels": 0,
+  "predictedVoxels": 831,
+  "truePositiveVoxels": 0,
+  "falsePositiveVoxels": 831,
+  "falseNegativeVoxels": 0,
+  "dice": null,
+  "recall": null,
+  "precision": 0.0,
+  "peakProbability": 1.0,
+  "rawLabelVoxels": 0,
+  "classifierProbability": null,
+  "classifierThreshold": null,
+  "predictedComponents": 40,
+  "predictedVolumeMl": 10.338488081380316,
+  "heatmap": "Tumor probability from the joint CT/PET segmentation model",
+  "sliceSelection": "Center of the largest predicted tumor region",
+  "sliceIndexZYX": [
+    233,
+    236,
+    159
+  ],
+  "spacingZYX": [
+    3.0,
+    2.0364201068878174,
+    2.0364201068878174
+  ],
+  "orientation": "LPS",
+  "displayWindows": {
+    "ctHU": [
+      -160,
+      240
+    ],
+    "petSUV": [
+      0,
+      10
+    ]
+  },
+  "inputSha256": {
+    "ct": "a997360a61ac3d43707ee0462493daca3c67c0c2b4885cfcb3196998e11ff821",
+    "pet": "7e8907d47b5ad2804ff964fac4a954fe943098a8c6b56593f1f404280c726c1b"
+  },
+  "images": {
+    "ct": {
+      "plain": {
+        "axial": "imaging/scan-025/ct-plain-axial.png",
+        "coronal": "imaging/scan-025/ct-plain-coronal.png",
+        "sagittal": "imaging/scan-025/ct-plain-sagittal.png"
+      },
+      "overlay": {
+        "axial": "imaging/scan-025/ct-overlay-axial.png",
+        "coronal": "imaging/scan-025/ct-overlay-coronal.png",
+        "sagittal": "imaging/scan-025/ct-overlay-sagittal.png"
+      }
+    },
+    "pet": {
+      "plain": {
+        "axial": "imaging/scan-025/pet-plain-axial.png",
+        "coronal": "imaging/scan-025/pet-plain-coronal.png",
+        "sagittal": "imaging/scan-025/pet-plain-sagittal.png"
+      },
+      "overlay": {
+        "axial": "imaging/scan-025/pet-overlay-axial.png",
+        "coronal": "imaging/scan-025/pet-overlay-coronal.png",
+        "sagittal": "imaging/scan-025/pet-overlay-sagittal.png"
+      }
+    }
+  },
+  "preview": "imaging/scan-025/preview.png",
+  "metricsUrl": "imaging/scan-025/metrics.json"
+}

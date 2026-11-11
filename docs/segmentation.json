@@ -23,7 +23,9 @@
      "coronal": "segmentation/sample-1-lesion-coronal.webp",
      "sagittal": "segmentation/sample-1-lesion-sagittal.webp"
     }
-   }
+   },
+   "caseId": "fdg_94962fe878_06-01-2007-NA-PET-CT Ganzkoerper  primaer mit KM-57422",
+   "scanIndex": 100
   },
   {
    "sample": 2,
@@ -44,7 +46,9 @@
      "coronal": "segmentation/sample-2-lesion-coronal.webp",
      "sagittal": "segmentation/sample-2-lesion-sagittal.webp"
     }
-   }
+   },
+   "caseId": "fdg_901573a747_05-13-2005-NA-PET-CT Ganzkoerper  primaer mit KM-32417",
+   "scanIndex": 98
   },
   {
    "sample": 3,
@@ -65,7 +69,9 @@
      "coronal": "segmentation/sample-3-lesion-coronal.webp",
      "sagittal": "segmentation/sample-3-lesion-sagittal.webp"
     }
-   }
+   },
+   "caseId": "fdg_1fcfa34d10_09-19-2003-NA-PET-CT Ganzkoerper  primaer mit KM-71511",
+   "scanIndex": 26
   },
   {
    "sample": 4,
@@ -86,7 +92,9 @@
      "coronal": "segmentation/sample-4-lesion-coronal.webp",
      "sagittal": "segmentation/sample-4-lesion-sagittal.webp"
     }
-   }
+   },
+   "caseId": "fdg_f4668d2bdc_09-04-2000-NA-PET-CT Ganzkoerper  primaer mit KM-84583",
+   "scanIndex": 189
   },
   {
    "sample": 5,
@@ -107,7 +115,9 @@
      "coronal": "segmentation/sample-5-lesion-coronal.webp",
      "sagittal": "segmentation/sample-5-lesion-sagittal.webp"
     }
-   }
+   },
+   "caseId": "fdg_b6fc20942c_12-28-2001-NA-PET-CT Ganzkoerper  primaer mit KM-65823",
+   "scanIndex": 138
   },
   {
    "sample": 6,
@@ -128,7 +138,9 @@
      "coronal": "segmentation/sample-6-lesion-coronal.webp",
      "sagittal": "segmentation/sample-6-lesion-sagittal.webp"
     }
-   }
+   },
+   "caseId": "psma_3952dd30abc947de_2014-10-20",
+   "scanIndex": 222
   },
   {
    "sample": 7,
@@ -149,7 +161,9 @@
      "coronal": "segmentation/sample-7-lesion-coronal.webp",
      "sagittal": "segmentation/sample-7-lesion-sagittal.webp"
     }
-   }
+   },
+   "caseId": "psma_367adbcbbe2108d5_2019-09-27",
+   "scanIndex": 221
   },
   {
    "sample": 8,
@@ -170,7 +184,9 @@
      "coronal": "segmentation/sample-8-lesion-coronal.webp",
      "sagittal": "segmentation/sample-8-lesion-sagittal.webp"
     }
-   }
+   },
+   "caseId": "psma_8e7619b9167225fb_2019-03-30",
+   "scanIndex": 258
   },
   {
    "sample": 9,
@@ -191,7 +207,9 @@
      "coronal": "segmentation/sample-9-lesion-coronal.webp",
      "sagittal": "segmentation/sample-9-lesion-sagittal.webp"
     }
-   }
+   },
+   "caseId": "psma_ed407d8135a958c6_2015-04-03",
+   "scanIndex": 302
   },
   {
    "sample": 10,
@@ -212,7 +230,9 @@
      "coronal": "segmentation/sample-10-lesion-coronal.webp",
      "sagittal": "segmentation/sample-10-lesion-sagittal.webp"
     }
-   }
+   },
+   "caseId": "psma_560e93923a626c54_2015-06-13",
+   "scanIndex": 231
   }
  ],
  "groups": {

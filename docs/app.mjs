@@ -1,5 +1,6 @@
 import { predict, describeFeature, featureIndex, removeFeatures, featureEffects, zScore } from "./inference.mjs";
 import { renderSegmentation } from "./segmentation.mjs";
+import { renderScanImaging } from "./scan-imaging.mjs";
 
 const SPOTLIGHT = { channel: 286, pooling: "patch-max" };
 const TOP_N = 10;
@@ -10,6 +11,8 @@ let scans;
 let importance;
 let tracers = null;
 let spotlightIndex;
+let imagingViewer;
+let segmentationViewer;
 
 let scan;
 let baseResult;
@@ -171,11 +174,44 @@ if (model && scans) {
   }
   try {
     const segmentation = await loadJSON("segmentation.json");
-    renderSegmentation(get("segmentation"), segmentation, model, scans, tracers);
+    segmentationViewer = renderSegmentation(get("segmentation"), segmentation, model, scans, tracers);
   } catch (error) {
     console.error(error);
   }
+  try {
+    const imaging = await loadJSON("imaging.json");
+    imagingViewer = renderScanImaging(get("scan-imaging"), imaging, scans, chooseScan);
+  } catch (error) {
+    get("scan-imaging").textContent = "CT/PET images could not load. Please refresh the page.";
+    console.error(error);
+  }
 }
+
+function chooseScan(index) {
+  if (!Number.isInteger(index) || index < 0 || index >= scans.length) return;
+  get("scan").value = String(index);
+  get("scan").dispatchEvent(new Event("change"));
+  get("prediction-form").requestSubmit();
+}
+
+function syncScanImages() {
+  const index = Number(get("scan").value);
+  imagingViewer?.selectScan(index);
+  segmentationViewer?.selectScan(index);
+}
+
+get("scan").addEventListener("change", () => {
+  for (const id of ["tumor-score", "negative-score", "prediction", "actual", "correct"]) get(id).textContent = "—";
+  get("tumor-bar").value = 0;
+  get("negative-bar").value = 0;
+  get("explain").hidden = true;
+  get("change-note").hidden = true;
+  get("tracer-note").hidden = true;
+  get("error").hidden = true;
+  syncScanImages();
+});
+
+get("segmentation").addEventListener("segmentation-select", (event) => chooseScan(event.detail.scanIndex));
 
 function showTracer() {
   const note = get("tracer-note");
@@ -231,3 +267,11 @@ get("reset").addEventListener("click", () => {
   removed.clear();
   update();
 });
+
+if (model && scans) {
+  syncScanImages();
+  const requestedScan = Number(new URLSearchParams(location.search).get("scan"));
+  if (Number.isInteger(requestedScan) && requestedScan >= 1 && requestedScan <= scans.length) {
+    chooseScan(requestedScan - 1);
+  }
+}

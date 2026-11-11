@@ -1,0 +1,3152 @@
+[
+  {
+    "case_id": "fdg_0011f3deaf_03-23-2003-NA-PET-CT Ganzkoerper  primaer mit KM-10445",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 0,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_0117d7f11f_09-13-2001-NA-PET-CT Ganzkoerper  primaer mit KM-68547",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 1,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_0225325b91_08-22-2005-NA-PET-CT Teilkoerper  primaer mit KM-72660",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 2,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_0410759456_08-22-2003-NA-PET-CT Ganzkoerper  primaer mit KM-20805",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 3,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_0410759456_11-07-2002-NA-PET-CT Ganzkoerper  primaer mit KM-75415",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 4,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_05bed31780_11-24-2003-NA-PET-CT Ganzkoerper  primaer mit KM-09401",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 5,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_06d55e8295_04-17-2003-NA-PET-CT Teilkoerper  primaer mit KM-01782",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 6,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_072833774e_07-23-2006-NA-PET-CT Teilkoerper  primaer mit KM-84430",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 7,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_0e9a98ecda_02-20-2003-NA-PET-CT Ganzkoerper  primaer mit KM-36915",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 8,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_1253499c80_10-07-2005-NA-PET-CT Ganzkoerper  primaer mit KM-50242",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 9,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_13d0984c93_09-08-2003-NA-PET-CT Ganzkoerper  primaer mit KM-48750",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 10,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_1472967bef_12-21-2002-NA-PET-CT Ganzkoerper  primaer mit KM-48645",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 11,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_147a9fcff3_08-16-2001-NA-PET-CT Ganzkoerper  primaer mit KM-80653",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 12,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_14929994cf_04-30-2005-NA-PET-CT Ganzkoerper  primaer mit KM-47251",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 13,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_14f931f634_06-09-2005-NA-PET-CT Ganzkoerper  primaer mit KM-87681",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 14,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_173b804eda_10-11-2004-NA-PET-CT Ganzkoerper nativ-64205",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 15,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_176bdc5388_06-22-2006-NA-PET-CT Ganzkoerper  primaer mit KM-71560",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 16,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_1781ba966c_08-08-2002-NA-PET-CT Ganzkoerper  primaer mit KM-99061",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 17,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_17d334cb6c_08-28-2000-NA-Unspecified CT ABDOMEN-62383",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 18,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_182bdeba22_05-10-2007-NA-PET-CT Ganzkoerper  primaer mit KM-88669",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 19,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_185da4c8b6_04-18-2003-NA-PET-CT Ganzkoerper  primaer mit KM-06919",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 20,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_19838cb8e5_07-29-2002-NA-PET-CT Ganzkoerper  primaer mit KM-25383",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 21,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_19b68a666b_04-14-2005-NA-PET-CT Ganzkoerper  primaer mit KM-01313",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 22,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_1a90052cb2_06-22-2001-NA-PET-CT Ganzkoerper  primaer mit KM-47169",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 23,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_1a90052cb2_09-06-2003-NA-PET-CT Ganzkoerper  primaer mit KM-80674",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 24,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_1f65acff65_05-06-2007-NA-PET-CT Ganzkoerper nativ u. mit KM-95034",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 25,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_1fcfa34d10_09-19-2003-NA-PET-CT Ganzkoerper  primaer mit KM-71511",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 26,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_20995a0fe1_12-02-2005-NA-PET-CT Ganzkoerper nativ-92555",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 27,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_21e4ffcb52_05-06-2002-NA-PET-CT Ganzkoerper  primaer mit KM-72081",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 28,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_22d07bdc49_01-05-2003-NA-PET-CT Ganzkoerper  primaer mit KM-77260",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 29,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_2745fb1adb_12-21-2002-NA-PET-CT Ganzkoerper  primaer mit KM-90513",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 30,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_274688d0a8_03-24-2007-NA-PET-CT Ganzkoerper  primaer mit KM-59557",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 31,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_27d69a8466_12-16-2001-NA-PET-CT Ganzkoerper  primaer mit KM-68630",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 32,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_2946d59a94_11-06-2006-NA-PET-CT Ganzkoerper nativ-66800",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 33,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_2a41141775_09-24-2005-NA-PET-CT Ganzkoerper  primaer mit KM-94391",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 34,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_2a6f4f0753_07-31-2003-NA-PET-CT Ganzkoerper  primaer mit KM-21938",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 35,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_2d9638360e_09-09-2005-NA-PET-CT Ganzkoerper  primaer mit KM-19870",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 36,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_31ddf5013a_02-22-2001-NA-PET-CT Ganzkoerper  primaer mit KM-04471",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 37,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_3481507253_06-17-2007-NA-PET-CT Ganzkoerper  primaer mit KM-41462",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 38,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_350e91119a_10-23-2005-NA-PET-CT Ganzkoerper  primaer mit KM-47863",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 39,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_35c9c85a96_04-08-2005-NA-PET-CT Ganzkoerper  primaer mit KM-92929",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 40,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_35c9c85a96_09-23-2005-NA-PET-CT Ganzkoerper  primaer mit KM-90618",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 41,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_35de69968e_10-27-2006-NA-PET-CT Ganzkoerper  primaer mit KM-24640",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 42,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_389c968170_02-17-2006-NA-PET-CT Ganzkoerper  primaer mit KM-04769",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 43,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_389c968170_08-19-2005-NA-PET-CT Ganzkoerper  primaer mit KM-57236",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 44,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_3a40a26443_10-02-2005-NA-PET-CT Ganzkoerper  primaer mit KM-43565",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 45,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_3b1c9155f5_01-31-2003-NA-PET-CT Ganzkoerper  primaer mit KM-94971",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 46,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_3ba0277c0c_04-26-2007-NA-PET-CT Ganzkoerper  primaer mit KM-46623",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 47,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_3f2ee0274d_09-16-2002-NA-PET-CT Ganzkoerper  primaer mit KM-19611",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 48,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_4011ffe8ae_02-07-2005-NA-PET-CT Ganzkoerper  primaer mit KM-03025",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 49,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_416d3b9b78_08-14-2006-NA-PET-CT Ganzkoerper  primaer mit KM-17835",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 50,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_41bd54f97a_03-25-2007-NA-PET-CT Ganzkoerper  primaer mit KM-02055",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 51,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_424e9b79c5_05-11-2003-NA-PET-CT Ganzkoerper  primaer mit KM-12121",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 52,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_442a09f90e_03-16-2002-NA-PET-CT Ganzkoerper  primaer mit KM-24290",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 53,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_44bf7dc508_07-25-2002-NA-PET-CT Ganzkoerper  primaer mit KM-41879",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 54,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_456e6f9dc2_07-28-2005-NA-PET-CT Ganzkoerper  primaer mit KM-82544",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 55,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_46ee4ddd68_03-19-2007-NA-PET-CT Ganzkoerper  primaer mit KM-86763",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 56,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_474d7af918_12-09-2004-NA-PET-CT Ganzkoerper  primaer mit KM-66154",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 57,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_4760c0139a_01-26-2006-NA-PET-CT Ganzkoerper  primaer mit KM-28262",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 58,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_4776e75543_04-01-2007-NA-PET-CT Ganzkoerper  primaer mit KM-74749",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 59,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_4785066413_08-24-2006-NA-PET-CT Ganzkoerper  primaer mit KM-27776",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 60,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_47f4460050_08-06-2006-NA-PET-CT Ganzkoerper  primaer mit KM-39942",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 61,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_48d5467561_01-27-2006-NA-PET-CT Ganzkoerper  primaer mit KM-13285",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 62,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_48d5467561_10-28-2005-NA-PET-CT Ganzkoerper  primaer mit KM-70383",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 63,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_49479d6e64_06-07-2002-NA-PET-CT Ganzkoerper  primaer mit KM-40984",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 64,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_49f3d297b0_07-24-2003-NA-PET-CT Ganzkoerper  primaer mit KM-42325",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 65,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_4d7b745a7b_01-23-2003-NA-PET-CT Ganzkoerper  primaer mit KM-29523",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 66,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_53dad1785b_12-11-2005-NA-PET-CT Ganzkoerper  primaer mit KM-08525",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 67,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_556b56485a_08-29-2003-NA-PET-CT Ganzkoerper  primaer mit KM-83019",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 68,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_591b3025ff_11-13-2004-NA-PET-CT Ganzkoerper  primaer mit KM-80221",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 69,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_5951afb86e_03-17-2006-NA-PET-CT Ganzkoerper nativ-68179",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 70,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_59e6d1de22_08-06-2005-NA-PET-CT Ganzkoerper  primaer mit KM-59516",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 71,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_5bd311a5e9_09-12-2005-NA-PET-CT Ganzkoerper  primaer mit KM-27550",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 72,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_5cf118ac06_02-28-2004-NA-PET-CT Ganzkoerper  primaer mit KM-95778",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 73,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_5d553bf6b4_09-16-2001-NA-PET-CT Ganzkoerper  primaer mit KM-78907",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 74,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_5f569fb737_09-12-2002-NA-PET-CT Ganzkoerper  primaer mit KM-70669",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 75,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_61663450f8_08-16-2003-NA-PET-CT Ganzkoerper  primaer mit KM-08282",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 76,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_631b419cef_11-23-2006-NA-PET-CT Ganzkoerper  primaer mit KM-73635",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 77,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_63464433c8_01-04-2003-NA-PET-CT Ganzkoerper  primaer mit KM-02056",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 78,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_685d7c09b5_12-23-2000-NA-PET-CT Ganzkoerper  primaer mit KM-22883",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 79,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_6a3477cd9a_01-15-2005-NA-PET-CT Ganzkoerper  primaer mit KM-52826",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 80,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_6e7c7f8087_03-23-2003-NA-PET-CT Ganzkoerper  primaer mit KM-20555",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 81,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_742a9413db_11-10-2001-NA-PET-CT Ganzkoerper  primaer mit KM-67094",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 82,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_78355d1d4f_01-23-2006-NA-PET-CT Ganzkoerper  primaer mit KM-63813",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 83,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_78b89bc739_11-08-2004-NA-PET-CT Ganzkoerper  primaer mit KM-17334",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 84,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_792d7b6ad0_04-04-2005-NA-PET-CT Teilkoerper  primaer mit KM-71581",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 85,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_7a262070a9_11-25-2005-NA-PET-CT Ganzkoerper  primaer mit KM-58120",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 86,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_7d01eb835d_03-31-2002-NA-PET-CT Ganzkoerper  primaer mit KM-36135",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 87,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_7f2a604e03_05-05-2002-NA-PET-CT Ganzkoerper  primaer mit KM-38994",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 88,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_80f21e1ed0_11-12-2006-NA-PET-CT Ganzkoerper  primaer mit KM-60752",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 89,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_824c6a0014_12-18-2005-NA-PET-CT Ganzkoerper  primaer mit KM-51928",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 90,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_870181d7fd_10-31-2004-NA-PET-CT Ganzkoerper  primaer mit KM-80978",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 91,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_88bcc970b3_02-28-2002-NA-PET-CT Ganzkoerper  primaer mit KM-41395",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 92,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_8a52353a72_02-17-2003-NA-PET-CT Ganzkoerper  primaer mit KM-13495",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 93,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_8c5d99b459_05-04-2007-NA-PET-CT Ganzkoerper  primaer mit KM-16657",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 94,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_8eb3998417_07-03-2004-NA-PET-CT Ganzkoerper  primaer mit KM-37591",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 95,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_8f2878df50_02-21-2003-NA-PET-CT Ganzkoerper  primaer mit KM-89268",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 96,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_8f2878df50_08-22-2002-NA-PET-CT Ganzkoerper  primaer mit KM-45456",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 97,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_901573a747_05-13-2005-NA-PET-CT Ganzkoerper  primaer mit KM-32417",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 98,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_91cfa804b0_09-22-2006-NA-PET-CT Ganzkoerper  primaer mit KM-30574",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 99,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_94962fe878_06-01-2007-NA-PET-CT Ganzkoerper  primaer mit KM-57422",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 100,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_94986389d4_11-11-2002-NA-PET-CT Ganzkoerper  primaer mit KM-46343",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 101,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_9521502dbb_05-17-2007-NA-PET-CT Ganzkoerper  primaer mit KM-42207",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 102,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_98c6af8b90_05-26-2003-NA-PET-CT Ganzkoerper  primaer mit KM-21188",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 103,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_99a7bfad23_08-26-2000-NA-PET-CT Ganzkoerper  primaer mit KM-87293",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 104,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_99e5728030_04-18-2002-NA-PET-CT Ganzkoerper  primaer mit KM-06580",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 105,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_9a83943958_08-03-2003-NA-PET-CT Ganzkoerper  primaer mit KM-73758",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 106,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_9ad7dffae6_05-22-2003-NA-PET-CT Ganzkoerper  primaer mit KM-96349",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 107,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_9c36b318e8_11-04-2006-NA-PET-CT Ganzkoerper  primaer mit KM-91815",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 108,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_9d6e9223cc_11-16-2002-NA-Unspecified CT-30924",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 109,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_9e864bb710_09-14-2003-NA-PET-CT Ganzkoerper  primaer mit KM-82476",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 110,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_9f491f1481_02-12-2006-NA-PET-CT Ganzkoerper  primaer mit KM-19458",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 111,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_a19ef8e0d2_12-26-1999-NA-PET-CT Ganzkoerper  primaer mit KM-80792",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 112,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_a1bc00ad60_03-06-2003-NA-PET-CT Ganzkoerper nativ-67040",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 113,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_a1bc00ad60_08-10-2006-NA-PET-CT Ganzkoerper nativ-94184",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 114,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_a1db71e797_03-25-2005-NA-PET-CT Ganzkoerper  primaer mit KM-62987",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 115,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_a21200dcba_03-10-2005-NA-PET-CT Ganzkoerper  primaer mit KM-40542",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 116,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_a37b4bca43_06-23-2002-NA-PET-CT Ganzkoerper  primaer mit KM-47963",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 117,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_a37c4e231f_12-13-2002-NA-PET-CT Ganzkoerper  primaer mit KM-39859",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 118,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_a41d59682f_09-29-2006-NA-PET-CT Ganzkoerper  primaer mit KM-76863",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 119,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_a4a66c4fa7_07-07-2006-NA-PET-CT Ganzkoerper  primaer mit KM-13569",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 120,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_a627fc68a1_02-14-2003-NA-PET-CT Ganzkoerper  primaer mit KM-74771",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 121,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_a7b323b3fd_04-01-2005-NA-PET-CT Ganzkoerper  primaer mit KM-97322",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 122,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_a933c9af60_09-19-2002-NA-PET-CT Ganzkoerper nativ-00786",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 123,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_ac11b344b6_11-03-2002-NA-PET-CT Ganzkoerper  primaer mit KM-98064",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 124,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_ae96f738c0_05-01-2003-NA-PET-CT Ganzkoerper  primaer mit KM-67749",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 125,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_ae96f738c0_09-11-2003-NA-PET-CT Ganzkoerper  primaer mit KM-60169",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 126,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_af547fa618_03-11-2006-NA-PET-CT Ganzkoerper  primaer mit KM-11358",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 127,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b1de3d4248_11-20-2003-NA-PET-CT Ganzkoerper  primaer mit KM-61599",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 128,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b3e923029c_07-19-2003-NA-PET-CT Ganzkoerper  primaer mit KM-84735",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 129,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b3e923029c_11-21-2003-NA-PET-CT Ganzkoerper  primaer mit KM-64843",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 130,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b4247b8ecd_05-27-2007-NA-PET-CT Ganzkoerper  primaer mit KM-57904",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 131,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b4247b8ecd_10-20-2006-NA-PET-CT Ganzkoerper  primaer mit KM-38148",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 132,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b510436d83_11-10-2002-NA-PET-CT Ganzkoerper  primaer mit KM-03941",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 133,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b510436d83_11-14-2003-NA-PET-CT Ganzkoerper  primaer mit KM-35292",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 134,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b52920038c_06-07-2003-NA-PET-CT Ganzkoerper  primaer mit KM-50621",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 135,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b621742469_11-04-2004-NA-PET-CT Ganzkoerper  primaer mit KM-74522",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 136,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b6a3c72db6_07-13-2002-NA-PET-CT Ganzkoerper  primaer mit KM-50469",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 137,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b6fc20942c_12-28-2001-NA-PET-CT Ganzkoerper  primaer mit KM-65823",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 138,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b899150306_08-11-2002-NA-PET-CT Ganzkoerper  primaer mit KM-26543",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 139,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_b926177c87_10-10-2004-NA-PET-CT Ganzkoerper  primaer mit KM-99946",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 140,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_bacc741e2c_01-28-2002-NA-PET-CT Ganzkoerper  primaer mit KM-74707",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 141,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_bb45bfcffd_01-03-2003-NA-PET-CT Ganzkoerper  primaer mit KM-50107",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 142,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_bd52fdf529_12-03-2000-NA-PET-CT Ganzkoerper  primaer mit KM-96150",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 143,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_bfd89440db_02-05-2006-NA-PET-CT Ganzkoerper  primaer mit KM-45908",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 144,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_bfd89440db_03-11-2007-NA-PET-CT Ganzkoerper  primaer mit KM-10321",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 145,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_c2ffda4725_04-11-2003-NA-PET-CT Teilkoerper  primaer mit KM-94251",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 146,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_c2ffda4725_09-19-2003-NA-PET-CT Teilkoerper  primaer mit KM-27018",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 147,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_c3cc732d95_07-21-2005-NA-PET-CT Ganzkoerper  primaer mit KM-95170",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 148,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_c58477f3b4_12-07-2002-NA-PET-CT Ganzkoerper  primaer mit KM-71683",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 149,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_c7dc6f848c_02-02-2006-NA-PET-CT Ganzkoerper  primaer mit KM-41299",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 150,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_c7fd7e3e30_11-13-2003-NA-PET-CT Ganzkoerper nativ u. mit KM-28525",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 151,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_cb240e6f0f_04-19-2007-NA-PET-CT Ganzkoerper  primaer mit KM-72397",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 152,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_cb83710e3d_03-10-2006-NA-PET-CT Ganzkoerper  primaer mit KM-91744",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 153,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_cc1698663a_10-15-2004-NA-PET-CT Ganzkoerper  primaer mit KM-19081",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 154,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_cd9bdca46b_10-05-2006-NA-PET-CT Ganzkoerper  primaer mit KM-37268",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 155,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d0ea6c975f_10-11-2002-NA-PET-CT Ganzkoerper  primaer mit KM-09558",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 156,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d1f456d229_09-01-2006-NA-PET-CT Ganzkoerper  primaer mit KM-50388",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 157,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d27451634d_03-12-2005-NA-PET-CT Ganzkoerper  primaer mit KM-00632",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 158,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d31c9ebd93_07-21-2003-NA-PET-CT Ganzkoerper  primaer mit KM-37139",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 159,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d32cf972af_03-13-2003-NA-PET-CT Ganzkoerper  primaer mit KM-81075",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 160,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d472033d3b_09-28-2002-NA-PET-CT Ganzkoerper nativ-51450",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 161,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d4b2ff9721_12-16-2001-NA-PET-CT Ganzkoerper  primaer mit KM-64899",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 162,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d51664a9e4_11-05-2004-NA-PET-CT Ganzkoerper  primaer mit KM-38087",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 163,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d8d9e52cd5_03-13-2005-NA-PET-CT Ganzkoerper  primaer mit KM-84919",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 164,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d8d9e52cd5_05-07-2007-NA-PET-CT Ganzkoerper  primaer mit KM-13911",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 165,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d8d9e52cd5_07-04-2004-NA-PET-CT Ganzkoerper  primaer mit KM-31141",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 166,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d8d9e52cd5_10-07-2005-NA-PET-CT Ganzkoerper  primaer mit KM-71939",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 167,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_d951eeb735_01-23-2003-NA-PET-CT Ganzkoerper  primaer mit KM-21299",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 168,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_da4ce0da01_06-13-2003-NA-PET-CT Ganzkoerper  primaer mit KM-85721",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 169,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_dac5cd2a4d_12-02-2001-NA-PET-CT Ganzkoerper  primaer mit KM-27614",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 170,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_dc3437c9b9_11-21-2002-NA-PET-CT Ganzkoerper  primaer mit KM-60759",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 171,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_dc6174cb5d_03-29-2003-NA-PET-CT Ganzkoerper  primaer mit KM-09363",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 172,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_dc6174cb5d_12-15-2002-NA-PET-CT Ganzkoerper  primaer mit KM-78881",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 173,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_dd887591a9_05-06-2006-NA-PET-CT Ganzkoerper  primaer mit KM-16620",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 174,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_dd8f9f217c_02-15-2004-NA-PET-CT Ganzkoerper  primaer mit KM-50103",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 175,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_dd975744e7_09-23-2001-NA-PET-CT Ganzkoerper nativ u. mit KM-63221",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 176,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_ddbb3c69f0_08-11-2003-NA-PET-CT Ganzkoerper  primaer mit KM-00479",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 177,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_e04b7fa860_06-01-2002-NA-PET-CT Ganzkoerper  primaer mit KM-44830",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 178,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_e0a7ccecad_01-28-2006-NA-PET-CT Ganzkoerper  primaer mit KM-43859",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 179,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_e0aa99fa04_08-29-2003-NA-PET-CT Ganzkoerper  primaer mit KM-05827",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 180,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_e2834e6f5c_06-14-2002-NA-PET-CT Ganzkoerper  primaer mit KM-51062",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 181,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_e44480b9b8_05-26-2002-NA-PET-CT Ganzkoerper  primaer mit KM-00331",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 182,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_e9be8ec30f_12-12-2002-NA-PET-CT Ganzkoerper  primaer mit KM-29714",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 183,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_ea9302fb0f_08-23-2003-NA-PET-CT Ganzkoerper  primaer mit KM-17015",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 184,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_ee97822c60_03-03-2003-NA-PET-CT Ganzkoerper  primaer mit KM-78725",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 185,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_f144b214af_02-23-2001-NA-PET-CT Ganzkoerper  primaer mit KM-64199",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 186,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_f1594a7d8a_04-25-2003-NA-PET-CT Ganzkoerper  primaer mit KM-44309",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 187,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_f37014ec85_01-14-2007-NA-PET-CT Ganzkoerper  primaer mit KM-74079",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 188,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_f4668d2bdc_09-04-2000-NA-PET-CT Ganzkoerper  primaer mit KM-84583",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 189,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_f47e31ceb5_07-26-2003-NA-PET-CT Ganzkoerper  primaer mit KM-36586",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 190,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_f5c2c09846_10-28-2002-NA-PET-CT Ganzkoerper  primaer mit KM-57257",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 191,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_f5cff2e59d_05-10-2007-NA-PET-CT Ganzkoerper  primaer mit KM-18997",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 192,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_f7067b7bbb_05-26-2001-NA-PET-CT Ganzkoerper  primaer mit KM-25597",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 193,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_f9e0c504af_06-29-2003-NA-PET-CT Ganzkoerper  primaer mit KM-14170",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 194,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_fde79b6aa9_02-23-2003-NA-PET-CT Ganzkoerper  primaer mit KM-88403",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 195,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_fde79b6aa9_05-09-2005-NA-PET-CT Ganzkoerper  primaer mit KM-13154",
+    "tracer": "fdg",
+    "actual": 1,
+    "scan_index": 196,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_fde79b6aa9_08-16-2003-NA-PET-CT Ganzkoerper  primaer mit KM-88178",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 197,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "fdg_ff39795341_09-22-2005-NA-PET-CT Ganzkoerper  primaer mit KM-98939",
+    "tracer": "fdg",
+    "actual": 0,
+    "scan_index": 198,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_0179419e313f7d8c_2019-06-10",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 199,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_079f4e7df73c0f0a_2020-01-18",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 200,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_0878fdec425f09c3_2019-05-24",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 201,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_08e4ed1f00357374_2015-01-03",
+    "tracer": "psma",
+    "actual": 0,
+    "scan_index": 202,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_0bf6ac34fa0c97c0_2016-12-23",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 203,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_0bf6ac34fa0c97c0_2017-07-07",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 204,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_0bf6ac34fa0c97c0_2019-02-09",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 205,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_0d0f9fdf1578eaed_2021-08-28",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 206,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_0d0f9fdf1578eaed_2022-02-05",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 207,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_1122a9de80627036_2017-11-13",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 208,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_1d7ce562612262cb_2019-08-09",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 209,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_1d7ce562612262cb_2019-11-01",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 210,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_209536ec8c0b1d5e_2019-11-04",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 211,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_26154a761c528fdd_2016-10-22",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 212,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_26154a761c528fdd_2017-04-08",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 213,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_2c2358f5005d1a3c_2019-06-21",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 214,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_2d05f0b0476364c0_2021-09-11",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 215,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_2d05f0b0476364c0_2021-12-24",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 216,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_30fbb9471537bfb0_2014-06-23",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 217,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_310d8ea58fb29cb1_2020-07-13",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 218,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_35fd083826d0b23d_2018-01-01",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 219,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_35fd083826d0b23d_2018-03-23",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 220,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_367adbcbbe2108d5_2019-09-27",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 221,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_3952dd30abc947de_2014-10-20",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 222,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_3b06da5b6cd14d9d_2015-11-27",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 223,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_44b93bfe059935a1_2014-06-07",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 224,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_44d265a64415fee2_2017-05-15",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 225,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_46bee58f9758552a_2014-02-21",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 226,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_46bee58f9758552a_2020-02-01",
+    "tracer": "psma",
+    "actual": 0,
+    "scan_index": 227,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_4f8549d7a1cb31b0_2016-06-03",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 228,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_4fc4664327ba8d0b_2014-06-06",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 229,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_4fc4664327ba8d0b_2014-12-19",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 230,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_560e93923a626c54_2015-06-13",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 231,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_56a3a3e55545e167_2018-06-29",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 232,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_56a3a3e55545e167_2018-11-03",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 233,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_56e3d8d37a3d3958_2017-03-25",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 234,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_579d2afa0c4eec3e_2018-07-16",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 235,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_57a5841a095d55d1_2018-06-30",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 236,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_57cf81e8bb97b452_2020-03-06",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 237,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_57cf81e8bb97b452_2020-08-28",
+    "tracer": "psma",
+    "actual": 0,
+    "scan_index": 238,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_5813d6984082108d_2016-10-23",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 239,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_5907433e52a030d1_2016-05-29",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 240,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_69ea0c011af2e2d4_2014-05-01",
+    "tracer": "psma",
+    "actual": 0,
+    "scan_index": 241,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_69ea0c011af2e2d4_2014-09-21",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 242,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_69ea0c011af2e2d4_2016-07-29",
+    "tracer": "psma",
+    "actual": 0,
+    "scan_index": 243,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_6ef5e5c442e4ce63_2018-01-27",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 244,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_6ef5e5c442e4ce63_2018-09-01",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 245,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_6f538887f996bfaf_2022-01-15",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 246,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_6f538887f996bfaf_2022-05-14",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 247,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_738bc5d9946240f3_2014-11-03",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 248,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_751d8b9d08e7859c_2021-11-20",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 249,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_751d8b9d08e7859c_2022-03-12",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 250,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_75b021ca6b8b39a0_2015-01-04",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 251,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_7a522636008cf840_2020-07-31",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 252,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_7a522636008cf840_2020-12-18",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 253,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_834460a6d4330410_2020-02-22",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 254,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_8b4fac8d72277be9_2019-09-02",
+    "tracer": "psma",
+    "actual": 0,
+    "scan_index": 255,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_8c633b06dc898af2_2020-08-24",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 256,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_8e7619b9167225fb_2016-06-17",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 257,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_8e7619b9167225fb_2019-03-30",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 258,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_8e7619b9167225fb_2020-09-28",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 259,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_8effd73b76ee3191_2016-09-24",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 260,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_8effd73b76ee3191_2017-01-28",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 261,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_95a4d87af2bc56f7_2019-03-11",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 262,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_95b833d46f153cd2_2017-11-18",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 263,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_95b833d46f153cd2_2018-04-16",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 264,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_963334ffb5b4855b_2019-04-19",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 265,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_96585a88dc6ce6b0_2016-01-24",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 266,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_a17bb16aa6d2f6fa_2020-10-31",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 267,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_a2e474cdd4d3c64a_2019-12-27",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 268,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_a96814a79aa26c8f_2022-09-23",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 269,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ab12d866a44fe389_2020-09-04",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 270,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ae15e8ff542ee5a1_2018-01-28",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 271,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ae15e8ff542ee5a1_2018-07-20",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 272,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_af293f5b5149087a_2016-06-19",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 273,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_af293f5b5149087a_2017-09-09",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 274,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_af881eca29658895_2020-01-18",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 275,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_af881eca29658895_2020-05-09",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 276,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_b487a97686e64dbf_2019-07-08",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 277,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_b487a97686e64dbf_2019-11-18",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 278,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_b8b992413f5d80c3_2020-05-15",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 279,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ba6433757dfc9d21_2021-06-04",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 280,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ba6433757dfc9d21_2021-10-09",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 281,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_bc6df739c0290965_2020-11-28",
+    "tracer": "psma",
+    "actual": 0,
+    "scan_index": 282,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_be783bd2bf313946_2017-05-05",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 283,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_be783bd2bf313946_2017-10-28",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 284,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_c1aac5281cd6dedd_2018-03-23",
+    "tracer": "psma",
+    "actual": 0,
+    "scan_index": 285,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ca36bd95b63289d0_2020-05-15",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 286,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_daf98725797ce51a_2016-07-29",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 287,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_daf98725797ce51a_2016-12-17",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 288,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_dc822282f85e9b7b_2018-09-29",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 289,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ddd1dd20149915fb_2019-05-27",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 290,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ddd1dd20149915fb_2019-10-28",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 291,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_de1f4300eda3bef3_2016-01-31",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 292,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_de1f4300eda3bef3_2017-04-23",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 293,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_e1eef1b5e130ded8_2016-07-09",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 294,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_e3d0168f7e45cef4_2020-04-27",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 295,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_e51e9429c79eff86_2015-01-09",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 296,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_e88804f6e145e11a_2018-12-02",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 297,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ec55aac3ff6bec15_2016-02-28",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 298,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ec55aac3ff6bec15_2016-11-17",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 299,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ec55aac3ff6bec15_2017-04-24",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 300,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ec55aac3ff6bec15_2017-12-31",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 301,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ed407d8135a958c6_2015-04-03",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 302,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ed407d8135a958c6_2017-12-15",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 303,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ee01cba36afe0f56_2018-05-21",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 304,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ee01cba36afe0f56_2022-01-22",
+    "tracer": "psma",
+    "actual": 0,
+    "scan_index": 305,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ee01cba36afe0f56_2022-05-21",
+    "tracer": "psma",
+    "actual": 0,
+    "scan_index": 306,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ee0aaecb8ed1c922_2021-08-14",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 307,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_ee0aaecb8ed1c922_2021-12-18",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 308,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_f33cbe53d1aee5e8_2017-06-18",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 309,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_f33cbe53d1aee5e8_2018-01-13",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 310,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_f954cb7aa70b9dc2_2020-07-18",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 311,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_f954cb7aa70b9dc2_2020-11-16",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 312,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_fad59ccacf4b88f2_2021-11-06",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 313,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  },
+  {
+    "case_id": "psma_fad59ccacf4b88f2_2022-03-26",
+    "tracer": "psma",
+    "actual": 1,
+    "scan_index": 314,
+    "checkpoint_name": "checkpoint_ep760.pth",
+    "checkpoint_sha256": "e62cd62c541d9a8a3975f0ef7d07f15984d5697c28bc2a863317a895f0fd6dba",
+    "plans_sha256": "92125d2a7e03b868d3e756c55e308cefb46a4edb3e8ca11018f11a4c7c4d2c27",
+    "dataset_sha256": "d4b2a3c25dc01465124ed54f4ea32c3a4ac205b62ae6295c4d98e674670268ca"
+  }
+]

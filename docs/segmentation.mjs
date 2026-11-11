@@ -117,12 +117,13 @@ export function renderSegmentation(container, data, model, scans, tracers) {
     data.samples.filter((s) => s.tracer === tracer).map(sampleRow).join("");
 
   container.innerHTML = `
-    <h2>How well does the segmentation model find tumors?</h2>
+    <h2>Earlier segmentation results on 10 scans</h2>
     <p>This is a separate nnU-Net model that outlines tumors voxel by voxel. It was checked on 10 validation scans against expert outlines. <strong>Recall</strong> is the share of the real tumor it found, <strong>precision</strong> is the share of what it flagged that really was tumor, and <strong>Dice</strong> combines both into one overlap score from 0 to 1.</p>
 
     <div class="cards">${statPanel(data, "fdg")}${statPanel(data, "psma")}</div>
     <p class="note">FDG and PSMA are the two PET tracers in this dataset. The model works well on FDG and poorly on PSMA, especially on small lesions.</p>
 
+    <p class="note gallery-status" hidden>Choose a sample below to select its matching scan and view its earlier CT heatmap.</p>
     <section class="panel">
       <h3>Dice for each segmentation sample</h3>
       <div class="chart-wrap">
@@ -139,7 +140,7 @@ export function renderSegmentation(container, data, model, scans, tracers) {
       </div>
     </section>
 
-    <section class="panel">
+    <section class="panel segmentation-viewer">
       <h3 class="viewer-title"></h3>
       <div class="tabs" role="tablist">
         ${TABS.map((tab) => `<button type="button" class="secondary" role="tab" data-tab="${tab.key}" aria-selected="false">${tab.label}</button>`).join("")}
@@ -166,7 +167,7 @@ export function renderSegmentation(container, data, model, scans, tracers) {
       <div class="cards">${classifierPanel(model, scans, tracers, "fdg")}${classifierPanel(model, scans, tracers, "psma")}</div>
     </section>` : ""}
 
-    <p class="note">Caveats: only 10 samples. The segmentation model is separate from the classifier. Segmentation samples 1–10 are not the same scans as the dropdown above. Threshold 0.5, checkpoint ${data.checkpointSha256Short}.</p>
+    <p class="note">These earlier results cover 10 validation scans. Selecting a sample also selects its matching scan in the dropdown. Threshold 0.5, checkpoint ${data.checkpointSha256Short}.</p>
 
     <dialog class="enlarged">
       <img alt="">
@@ -183,8 +184,10 @@ export function renderSegmentation(container, data, model, scans, tracers) {
   function showSample(number, scroll) {
     selected = number;
     const sample = bySample.get(number);
+    container.querySelector(".segmentation-viewer").hidden = false;
+    container.querySelector(".gallery-status").hidden = true;
     container.querySelector(".viewer-title").textContent =
-      `Sample ${number} · ${tracerName(sample.tracer)} · Dice ${sample.dice.toFixed(2)}`;
+      `Earlier sample ${number} · Scan ${String(sample.scanIndex + 1).padStart(3, "0")} · ${tracerName(sample.tracer)} · Dice ${sample.dice.toFixed(2)}`;
     container.querySelector(".viewer-caption").textContent = caption(sample);
     VIEWS.forEach((view, i) => {
       images[i].src = sample.images[tab][view];
@@ -223,7 +226,11 @@ export function renderSegmentation(container, data, model, scans, tracers) {
 
   container.addEventListener("click", (event) => {
     const sampleButton = event.target.closest("button[data-sample]");
-    if (sampleButton) showSample(Number(sampleButton.dataset.sample), true);
+    if (sampleButton) {
+      const sample = bySample.get(Number(sampleButton.dataset.sample));
+      showSample(sample.sample, true);
+      container.dispatchEvent(new CustomEvent("segmentation-select", { bubbles: true, detail: { scanIndex: sample.scanIndex } }));
+    }
 
     const tabButton = event.target.closest("[data-tab]");
     if (tabButton) {
@@ -251,4 +258,19 @@ export function renderSegmentation(container, data, model, scans, tracers) {
   });
 
   showSample(DEFAULT_SAMPLE, false);
+  return {
+    selectScan(index) {
+      const sample = data.samples.find((item) => item.scanIndex === index);
+      if (sample) {
+        showSample(sample.sample, false);
+        return;
+      }
+      container.querySelector(".segmentation-viewer").hidden = true;
+      container.querySelector(".gallery-status").hidden = false;
+      for (const image of images) image.removeAttribute("src");
+      for (const button of container.querySelectorAll("button[data-sample]")) button.setAttribute("aria-pressed", "false");
+      for (const row of container.querySelectorAll("tr[data-sample]")) row.classList.remove("selected");
+      dialog.close();
+    },
+  };
 }

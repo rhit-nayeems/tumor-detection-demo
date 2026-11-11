@@ -1,0 +1,31 @@
+{
+  "completed": 315,
+  "expected": 315,
+  "note": "Segmentation only. Positive-scan metrics are unweighted per-scan medians. Empty tumor masks are excluded from Dice/recall; report false positives separately.",
+  "byTracer": {
+    "fdg": {
+      "completed": 199,
+      "tumorScans": 106,
+      "tumorFreeScans": 93,
+      "positiveMedian": {
+        "dice": 0.7896462751876386,
+        "recall": 0.8482415798900844,
+        "precision": 0.8024971489967714
+      },
+      "tumorFreeScansWithFalsePositives": 89,
+      "tumorFreeFalsePositiveVolumeMl": 908.4682029826154
+    },
+    "psma": {
+      "completed": 116,
+      "tumorScans": 106,
+      "tumorFreeScans": 10,
+      "positiveMedian": {
+        "dice": 0.6787475105649197,
+        "recall": 0.7883864442367521,
+        "precision": 0.6757972199509403
+      },
+      "tumorFreeScansWithFalsePositives": 10,
+      "tumorFreeFalsePositiveVolumeMl": 858.5299464739985
+    }
+  }
+}
