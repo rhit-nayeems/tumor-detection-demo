@@ -173,7 +173,7 @@ if (model && scans) {
     console.error(error);
   }
   try {
-    const segmentation = await loadJSON("segmentation.json");
+    const segmentation = await loadJSON("segmentation.json?v=gallery-pet-link");
     segmentationViewer = renderSegmentation(get("segmentation"), segmentation, model, scans, tracers);
   } catch (error) {
     console.error(error);
