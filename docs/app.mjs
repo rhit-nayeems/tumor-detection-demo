@@ -1,5 +1,5 @@
 import { predict, describeFeature, featureIndex, removeFeatures, featureEffects, zScore } from "./inference.mjs";
-import { renderSegmentation } from "./segmentation.mjs?v=ct-pet-315";
+import { renderSegmentation } from "./segmentation.mjs?v=gallery-pet-link";
 import { renderScanImaging } from "./scan-imaging.mjs?v=ct-pet-315";
 
 const SPOTLIGHT = { channel: 286, pooling: "patch-max" };
@@ -273,5 +273,6 @@ if (model && scans) {
   const requestedScan = Number(new URLSearchParams(location.search).get("scan"));
   if (Number.isInteger(requestedScan) && requestedScan >= 1 && requestedScan <= scans.length) {
     chooseScan(requestedScan - 1);
+    if (location.hash === "#scan-imaging") get("scan-imaging").scrollIntoView();
   }
 }

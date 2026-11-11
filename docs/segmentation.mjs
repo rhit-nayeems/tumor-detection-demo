@@ -142,6 +142,7 @@ export function renderSegmentation(container, data, model, scans, tracers) {
 
     <section class="panel segmentation-viewer">
       <h3 class="viewer-title"></h3>
+      <p class="note">Earlier CT heatmaps. <a class="matched-imaging-link">View matching CT and PET heatmaps</a></p>
       <div class="tabs" role="tablist">
         ${TABS.map((tab) => `<button type="button" class="secondary" role="tab" data-tab="${tab.key}" aria-selected="false">${tab.label}</button>`).join("")}
       </div>
@@ -188,6 +189,7 @@ export function renderSegmentation(container, data, model, scans, tracers) {
     container.querySelector(".gallery-status").hidden = true;
     container.querySelector(".viewer-title").textContent =
       `Earlier sample ${number} · Scan ${String(sample.scanIndex + 1).padStart(3, "0")} · ${tracerName(sample.tracer)} · Dice ${sample.dice.toFixed(2)}`;
+    container.querySelector(".matched-imaging-link").href = `?scan=${sample.scanIndex + 1}#scan-imaging`;
     container.querySelector(".viewer-caption").textContent = caption(sample);
     VIEWS.forEach((view, i) => {
       images[i].src = sample.images[tab][view];
