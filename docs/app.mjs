@@ -1,5 +1,5 @@
 import { predict, describeFeature, removeFeatures, featureEffects } from "./inference.mjs?v=feature-explainer";
-import { renderScanImaging } from "./scan-imaging.mjs?v=workspace-redesign";
+import { renderScanImaging } from "./scan-imaging.mjs?v=image-zoom";
 import { renderResults } from "./results.mjs?v=workspace-redesign";
 
 const TOP_N = 5;

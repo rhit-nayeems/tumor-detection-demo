@@ -26,11 +26,18 @@ export function renderScanImaging(container, data, scans) {
       ${["ct", "pet"].map((modality) => `
         <figure>
           <figcaption>${modality.toUpperCase()}</figcaption>
-          <button type="button" class="view-button" data-modality="${modality}"><img alt=""></button>
+          <button type="button" class="view-button" title="Click to enlarge and zoom" data-modality="${modality}"><img alt=""></button>
         </figure>`).join("")}
       </div>
       <div class="heatmap-legend" hidden>
-        <p class="note legend"><span><span class="legend-gradient"></span> Segmentation model probability 0–1</span><span class="expert-legend"><span class="legend-line"></span> Expert tumor outline</span></p>
+        <div class="legend">
+          <div class="heatmap-scale" aria-label="Model heatmap: dark colors indicate low tumor likelihood, light colors indicate high tumor likelihood">
+            <span class="legend-title">Model heatmap</span>
+            <span class="legend-gradient" aria-hidden="true"></span>
+            <div class="legend-endpoints"><span>Low tumor likelihood</span><span>High tumor likelihood</span></div>
+          </div>
+          <div class="expert-legend"><span class="legend-line" aria-hidden="true"></span><span>Actual tumor outline</span></div>
+        </div>
       </div>
       <details class="imaging-details">
         <summary>Segmentation metrics and downloads</summary>
@@ -39,7 +46,16 @@ export function renderScanImaging(container, data, scans) {
         <p class="imaging-downloads"><a class="preview-link" download>Download CT/PET comparison</a><a class="metrics-link" download>Download scan metrics (JSON)</a></p>
       </details>
     </div>
-    <dialog class="imaging-dialog"><img alt=""><button type="button" class="secondary close-imaging">Close</button></dialog>`;
+    <dialog class="imaging-dialog" aria-label="Scan image viewer">
+      <div class="zoom-toolbar">
+        <button type="button" class="secondary zoom-out" aria-label="Zoom out">−</button>
+        <output class="zoom-level" aria-live="polite">100%</output>
+        <button type="button" class="secondary zoom-in" aria-label="Zoom in">+</button>
+        <button type="button" class="secondary zoom-reset">Reset</button>
+        <button type="button" class="secondary close-imaging">Close</button>
+      </div>
+      <div class="zoom-viewport" tabindex="0" aria-label="Scan image. Scroll to move around when zoomed in."><div class="zoom-canvas"><img alt="" draggable="false"></div></div>
+    </dialog>`;
 
   const viewer = container.querySelector(".imaging-viewer");
   const status = container.querySelector(".imaging-status");
@@ -49,6 +65,28 @@ export function renderScanImaging(container, data, scans) {
   const legend = container.querySelector(".heatmap-legend");
   const dialog = container.querySelector("dialog");
   let selected = null;
+  let zoom = 1;
+  const zoomViewport = dialog.querySelector(".zoom-viewport");
+  const zoomCanvas = dialog.querySelector(".zoom-canvas");
+
+  function setZoom(value) {
+    const next = Math.max(1, Math.min(4, value));
+    const ratio = next / zoom;
+    const left = (zoomViewport.scrollLeft + zoomViewport.clientWidth / 2) * ratio;
+    const top = (zoomViewport.scrollTop + zoomViewport.clientHeight / 2) * ratio;
+    zoom = next;
+    zoomCanvas.style.width = `${zoom * 100}%`;
+    zoomCanvas.style.height = `${zoom * 100}%`;
+    zoomViewport.scrollLeft = left - zoomViewport.clientWidth / 2;
+    zoomViewport.scrollTop = top - zoomViewport.clientHeight / 2;
+    dialog.querySelector(".zoom-level").textContent = `${zoom * 100}%`;
+    dialog.querySelector(".zoom-out").disabled = zoom === 1;
+    dialog.querySelector(".zoom-in").disabled = zoom === 4;
+  }
+
+  dialog.querySelector(".zoom-in").addEventListener("click", () => setZoom(zoom + .5));
+  dialog.querySelector(".zoom-out").addEventListener("click", () => setZoom(zoom - .5));
+  dialog.querySelector(".zoom-reset").addEventListener("click", () => setZoom(1));
 
   function updateImages() {
     const mode = checkbox.checked ? "overlay" : "plain";
@@ -102,6 +140,7 @@ export function renderScanImaging(container, data, scans) {
       dialog.querySelector("img").src = image.src;
       dialog.querySelector("img").alt = image.alt;
       dialog.showModal();
+      setZoom(1);
     }
     if (event.target.closest(".close-imaging") || event.target === dialog) dialog.close();
   });
