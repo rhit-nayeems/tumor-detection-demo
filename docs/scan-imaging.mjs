@@ -36,7 +36,7 @@ export function renderScanImaging(container, data, scans) {
         <summary>Segmentation metrics and downloads</summary>
         <p class="imaging-metrics"></p>
         <p class="note imaging-slices"></p>
-        <p class="imaging-downloads"><a class="preview-link" download>Download CT/PET comparison</a> · <a class="metrics-link" download>Download scan metrics (JSON)</a></p>
+        <p class="imaging-downloads"><a class="preview-link" download>Download CT/PET comparison</a><a class="metrics-link" download>Download scan metrics (JSON)</a></p>
       </details>
     </div>
     <dialog class="imaging-dialog"><img alt=""><button type="button" class="secondary close-imaging">Close</button></dialog>`;
@@ -89,7 +89,9 @@ export function renderScanImaging(container, data, scans) {
     updateImages();
   }
 
-  plane.addEventListener("change", updateImages);
+  plane.addEventListener("change", () => {
+    if (selected) updateImages();
+  });
   checkbox.addEventListener("change", () => {
     if (selected) updateImages();
   });

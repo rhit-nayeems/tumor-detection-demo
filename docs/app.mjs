@@ -1,6 +1,6 @@
 import { predict, describeFeature, removeFeatures, featureEffects } from "./inference.mjs?v=feature-explainer";
-import { renderScanImaging } from "./scan-imaging.mjs?v=scan-heading";
-import { renderResults } from "./results.mjs?v=demo-cleanup";
+import { renderScanImaging } from "./scan-imaging.mjs?v=workspace-redesign";
+import { renderResults } from "./results.mjs?v=workspace-redesign";
 
 const TOP_N = 5;
 const DEMO_SCANS = new Map([
@@ -12,6 +12,11 @@ const DEMO_SCANS = new Map([
 const get = (id) => document.getElementById(id);
 const pages = [...document.querySelectorAll(".demo-page")];
 const navLinks = document.querySelectorAll(".demo-nav a");
+const pageDescriptions = {
+  explore: "Compare the model’s prediction with the dataset label.",
+  "how-it-decides": "See how the extracted features affect this scan’s tumor score.",
+  results: "Classifier performance on the same 315 validation scans.",
+};
 
 function showPage() {
   const hash = location.hash.slice(1);
@@ -22,11 +27,13 @@ function showPage() {
     if (link.hash === `#${page}`) link.setAttribute("aria-current", "location");
     else link.removeAttribute("aria-current");
   }
+  get("page-title").textContent = [...navLinks].find((link) => link.hash === `#${page}`).textContent;
+  get("page-description").textContent = pageDescriptions[page];
 }
 
 window.addEventListener("hashchange", showPage);
-document.querySelector("main").addEventListener("click", (event) => {
-  const link = event.target.closest('.demo-nav a, .explain-header a');
+document.body.addEventListener("click", (event) => {
+  const link = event.target.closest('.demo-nav a, .explain-header a, .explain-link, .brand');
   if (!link || event.defaultPrevented || event.button !== 0 || event.ctrlKey ||
       event.metaKey || event.shiftKey || event.altKey) return;
   event.preventDefault();
@@ -122,6 +129,7 @@ function showPrediction(result) {
   get("prediction").textContent = result.prediction ? "Tumor" : "No tumor";
   get("actual").textContent = scan.actual ? "Tumor" : "No tumor";
   get("correct").textContent = result.prediction === scan.actual ? "Correct" : "Incorrect";
+  get("correct").dataset.match = String(result.prediction === scan.actual);
 }
 
 function update() {
@@ -150,18 +158,15 @@ try {
     loadJSON("scans.json"),
     loadJSON("importance.json"),
   ]);
-  const examples = document.createElement("optgroup");
-  examples.label = "Demo examples";
-  const otherScans = document.createElement("optgroup");
-  otherScans.label = "Other validation scans";
-  scans.forEach((scan, i) => {
+  const options = scans.map((scan, i) => {
     const option = document.createElement("option");
     option.value = String(i);
-    const label = DEMO_SCANS.get(scan.name);
-    option.textContent = label ? `${scan.name} · ${label}` : scan.name;
-    (label ? examples : otherScans).append(option);
+    option.textContent = scan.name;
+    return option;
   });
-  get("scan").replaceChildren(examples, otherScans);
+  get("scan").replaceChildren(...options);
+  get("threshold-marker").style.left = `${model.threshold * 100}%`;
+  get("threshold-note").textContent = `Tumor cutoff ${Math.round(model.threshold * 100)}%`;
   makeGlobalList();
 } catch (error) {
   showError("The demo could not load. Please refresh the page.");
@@ -173,6 +178,26 @@ if (model && scans) {
     loadJSON("tracers.json").then((data) => { tracers = data; }).catch(console.error),
     loadJSON("imaging.json?v=ct-pet-315").then((data) => {
       imagingViewer = renderScanImaging(get("scan-imaging"), data, scans);
+      const cases = data.samples.filter((sample) => DEMO_SCANS.has(sample.scanName));
+      const buttons = cases.map((sample) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "case-button";
+        button.dataset.scanIndex = sample.scanIndex;
+        button.setAttribute("aria-pressed", "false");
+        const image = document.createElement("img");
+        image.src = sample.images.ct.plain.axial;
+        image.alt = "";
+        const text = document.createElement("span");
+        const name = document.createElement("strong");
+        name.textContent = sample.scanName;
+        const description = document.createElement("small");
+        description.textContent = DEMO_SCANS.get(sample.scanName);
+        text.append(name, description);
+        button.append(image, text);
+        return button;
+      });
+      get("demo-cases").replaceChildren(...buttons);
     }).catch((error) => {
       get("scan-imaging").textContent = "CT/PET images could not load. Please refresh the page.";
       console.error(error);
@@ -181,27 +206,40 @@ if (model && scans) {
   renderResults(get("classifier-results"), model, scans, tracers);
 }
 
-function chooseScan(index) {
+function chooseScan(index, runPrediction = true) {
   if (!Number.isInteger(index) || index < 0 || index >= scans.length) return;
   get("scan").value = String(index);
   get("scan").dispatchEvent(new Event("change"));
-  get("prediction-form").requestSubmit();
+  if (runPrediction) get("prediction-form").requestSubmit();
 }
 
 function syncScanImages() {
   const index = Number(get("scan").value);
   imagingViewer?.selectScan(index);
   get("explain-scan").textContent = scans[index].name;
+  get("previous-scan").disabled = index === 0;
+  get("next-scan").disabled = index === scans.length - 1;
+  for (const button of get("demo-cases").querySelectorAll("button")) {
+    button.setAttribute("aria-pressed", String(Number(button.dataset.scanIndex) === index));
+  }
 }
 
 get("scan").addEventListener("change", () => {
   for (const id of ["tumor-score", "prediction", "actual", "correct"]) get(id).textContent = "—";
   get("tumor-bar").value = 0;
+  get("correct").removeAttribute("data-match");
   get("explain").hidden = true;
   get("explain-prompt").hidden = false;
   get("error").hidden = true;
   syncScanImages();
 });
+
+get("demo-cases").addEventListener("click", (event) => {
+  const button = event.target.closest("button");
+  if (button) chooseScan(Number(button.dataset.scanIndex), false);
+});
+get("previous-scan").addEventListener("click", () => chooseScan(Number(get("scan").value) - 1, false));
+get("next-scan").addEventListener("click", () => chooseScan(Number(get("scan").value) + 1, false));
 
 get("prediction-form").addEventListener("submit", (event) => {
   event.preventDefault();

@@ -6,38 +6,62 @@
   <meta name="color-scheme" content="dark">
   <title>Tumor Detection</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400..700&amp;display=swap">
-  <link rel="stylesheet" href="./style.css?v=source-sans">
-  <script type="module" src="./app.mjs?v=current-results"></script>
+  <link rel="stylesheet" href="./style.css?v=green-toned-down">
+  <script type="module" src="./app.mjs?v=green-toned-down"></script>
 </head>
 <body>
-  <main>
-    <h1>Tumor Detection</h1>
-    <p class="intro">315 PET/CT validation scans from AutoPET.</p>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <aside class="sidebar">
+    <a class="brand" href="#explore">Tumor Detection<span>PET / CT</span></a>
     <nav class="demo-nav" aria-label="Demo sections">
-      <a href="#explore" aria-current="location">Explore a Scan</a>
-      <a href="#how-it-decides">How It Decides</a>
+      <a href="#explore" aria-current="location">Scan explorer</a>
+      <a href="#how-it-decides">Feature importance</a>
       <a href="#results">Results</a>
     </nav>
+    <div class="sidebar-footer">
+      <span>AutoPET dataset</span>
+      <p>315 validation scans</p>
+      <a href="https://github.com/rhit-steelevw/tumor-detection-model" target="_blank" rel="noopener noreferrer">Project repository ↗</a>
+    </div>
+  </aside>
+  <main id="main-content">
+    <header class="page-header">
+      <div>
+        <h1 id="page-title">Scan explorer</h1>
+        <p id="page-description">Compare the model’s prediction with the dataset label.</p>
+      </div>
+    </header>
     <p id="error" role="alert" hidden></p>
     <section id="explore" class="demo-page" aria-label="Explore a Scan">
+      <div class="scan-toolbar">
       <form id="prediction-form">
         <label class="field" for="scan">Select a Scan
           <select id="scan" disabled><option>Loading scans…</option></select>
         </label>
       </form>
+      <div class="scan-navigation" aria-label="Browse scans">
+        <button id="previous-scan" class="secondary" type="button" disabled>Previous</button>
+        <button id="next-scan" class="secondary" type="button" disabled>Next</button>
+      </div>
+      </div>
+      <div id="demo-cases" class="demo-cases" aria-label="Presentation examples"></div>
       <div class="explore-layout">
         <section id="scan-imaging" aria-label="Selected scan CT and PET"></section>
         <section class="panel prediction-panel" aria-label="Classifier result">
-          <button id="predict" type="submit" form="prediction-form" disabled>Predict</button>
+          <h2>Classifier prediction</h2>
           <div aria-live="polite" aria-atomic="true">
-            <div class="bar-label"><label for="tumor-bar">Tumor score</label><output id="tumor-score">—</output></div>
-            <progress id="tumor-bar" max="1" value="0"></progress>
+            <label class="score-label" for="tumor-bar">Tumor score</label>
+            <output id="tumor-score">—</output>
+            <div class="score-track"><progress id="tumor-bar" max="1" value="0"></progress><span id="threshold-marker" aria-hidden="true"></span></div>
+            <p id="threshold-note" class="note"></p>
             <dl class="prediction-details">
               <div><dt>Prediction</dt><dd id="prediction">—</dd></div>
               <div><dt>Dataset label</dt><dd id="actual">—</dd></div>
-              <div><dt>Correct?</dt><dd id="correct">—</dd></div>
+              <div class="correctness"><dt>Match</dt><dd id="correct">—</dd></div>
             </dl>
           </div>
+          <button id="predict" type="submit" form="prediction-form" disabled>Predict</button>
+          <a class="explain-link" href="#how-it-decides">Check feature importance ↗</a>
         </section>
       </div>
     </section>
@@ -52,7 +76,7 @@
       </div>
       <div id="explain" hidden>
         <div id="change-note" class="panel" role="status"></div>
-        <div class="panel">
+        <div class="panel feature-panel">
           <h3>What changes the score for this scan?</h3>
           <p class="note">Each channel tracks a pattern the model learned. <strong>Peak</strong> is its highest value in any part of the scan. <strong>Average</strong> is its mean across all parts.</p>
           <p class="note">Select a row to turn off that feature by setting it to its training average. Each row shows the effect of turning off that feature alone.</p>
@@ -62,7 +86,7 @@
             <button id="reset" class="secondary" type="button" disabled>Reset</button>
           </div>
         </div>
-        <details class="panel global-features">
+        <details class="panel global-features" open>
           <summary>Feature importance across all 315 scans</summary>
           <p class="note">Longer bars mean the model did worse when that feature was shuffled between scans.</p>
           <ol id="global-list" class="global-list"></ol>

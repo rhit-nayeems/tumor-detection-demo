@@ -41,7 +41,7 @@ export function renderResults(container, model, scans, tracers) {
   const rows = [
     metricRow("Always predict tumor", confusionMatrix(scans, () => 1)),
     metricRow("Previous classifier", previous),
-    metricRow("Demo classifier (epoch-760 features)", overall),
+    metricRow("Current classifier", overall),
   ];
   const hasTracers = Array.isArray(tracers) && tracers.length === scans.length;
   const tracerRows = hasTracers ? ["FDG", "PSMA"].map((tracer) => {
@@ -50,6 +50,11 @@ export function renderResults(container, model, scans, tracers) {
   }) : [];
 
   container.innerHTML = `
+    <dl class="result-summary" aria-label="Current classifier results">
+      <div><dt>Accuracy</dt><dd>${percent((overall.tn + overall.tp) / scans.length)}</dd></div>
+      <div><dt>Balanced accuracy</dt><dd>${percent((overall.tp / (overall.tp + overall.fn) + overall.tn / (overall.tn + overall.fp)) / 2)}</dd></div>
+      <div><dt>Correct predictions</dt><dd>${overall.tn + overall.tp} / ${scans.length}</dd></div>
+    </dl>
     <section class="panel metrics-panel">
       <h2>Classifier performance</h2>
       <p class="note">315 shared AutoPET validation scans, split by patient.</p>
