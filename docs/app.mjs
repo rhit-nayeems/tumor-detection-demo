@@ -1,5 +1,4 @@
 import { predict, describeFeature, removeFeatures, featureEffects } from "./inference.mjs?v=feature-explainer";
-import { renderSegmentation } from "./segmentation.mjs?v=demo-cleanup";
 import { renderScanImaging } from "./scan-imaging.mjs?v=scan-heading";
 import { renderResults } from "./results.mjs?v=demo-cleanup";
 
@@ -23,7 +22,6 @@ function showPage() {
     if (link.hash === `#${page}`) link.setAttribute("aria-current", "location");
     else link.removeAttribute("aria-current");
   }
-  if (hash === "segmentation") get("segmentation-details").open = true;
 }
 
 window.addEventListener("hashchange", showPage);
@@ -44,7 +42,6 @@ let scans;
 let importance;
 let tracers = null;
 let imagingViewer;
-let segmentationViewer;
 
 let scan;
 let baseResult;
@@ -174,12 +171,6 @@ try {
 if (model && scans) {
   await Promise.all([
     loadJSON("tracers.json").then((data) => { tracers = data; }).catch(console.error),
-    loadJSON("segmentation.json?v=gallery-pet-link").then((data) => {
-      segmentationViewer = renderSegmentation(get("segmentation"), data);
-    }).catch((error) => {
-      get("segmentation").textContent = "The earlier gallery could not load.";
-      console.error(error);
-    }),
     loadJSON("imaging.json?v=ct-pet-315").then((data) => {
       imagingViewer = renderScanImaging(get("scan-imaging"), data, scans);
     }).catch((error) => {
@@ -200,7 +191,6 @@ function chooseScan(index) {
 function syncScanImages() {
   const index = Number(get("scan").value);
   imagingViewer?.selectScan(index);
-  segmentationViewer?.selectScan(index);
   get("explain-scan").textContent = scans[index].name;
 }
 
@@ -212,8 +202,6 @@ get("scan").addEventListener("change", () => {
   get("error").hidden = true;
   syncScanImages();
 });
-
-get("segmentation").addEventListener("segmentation-select", (event) => chooseScan(event.detail.scanIndex));
 
 get("prediction-form").addEventListener("submit", (event) => {
   event.preventDefault();
