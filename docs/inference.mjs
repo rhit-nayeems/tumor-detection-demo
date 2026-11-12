@@ -18,12 +18,8 @@ export function describeFeature(model, index) {
   const channels = model.inputSize / 2;
   const channel = index % channels;
   const pooling = index < channels ? "patch-mean" : "patch-max";
-  return { index, channel, pooling, label: `Channel ${channel} · ${pooling}` };
-}
-
-export function featureIndex(model, channel, pooling) {
-  const channels = model.inputSize / 2;
-  return pooling === "patch-max" ? channel + channels : channel;
+  const summary = pooling === "patch-mean" ? "average" : "peak";
+  return { index, channel, pooling, label: `Channel ${channel} (${summary})` };
 }
 
 export function removeFeatures(model, features, indices) {
@@ -38,8 +34,4 @@ export function featureEffects(model, features) {
     const without = removeFeatures(model, features, [index]);
     return { index, effect: baseProb - predict(model, without).probability };
   });
-}
-
-export function zScore(model, features, index) {
-  return (features[index] - model.mean[index]) / model.std[index];
 }

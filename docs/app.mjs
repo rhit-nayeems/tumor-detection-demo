@@ -1,22 +1,53 @@
-import { predict, describeFeature, featureIndex, removeFeatures, featureEffects, zScore } from "./inference.mjs";
-import { renderSegmentation } from "./segmentation.mjs?v=ep760-v3";
-import { renderScanImaging } from "./scan-imaging.mjs?v=ct-pet-315";
+import { predict, describeFeature, removeFeatures, featureEffects } from "./inference.mjs?v=feature-explainer";
+import { renderSegmentation } from "./segmentation.mjs?v=demo-cleanup";
+import { renderScanImaging } from "./scan-imaging.mjs?v=scan-heading";
+import { renderResults } from "./results.mjs?v=demo-cleanup";
 
-const SPOTLIGHT = { channel: 286, pooling: "patch-max" };
-const TOP_N = 10;
+const TOP_N = 5;
+const DEMO_SCANS = new Map([
+  ["Scan 023", "Tumor example"],
+  ["Scan 112", "Tumor-free example"],
+  ["Scan 239", "PSMA challenge"],
+]);
 
 const get = (id) => document.getElementById(id);
+const pages = [...document.querySelectorAll(".demo-page")];
+const navLinks = document.querySelectorAll(".demo-nav a");
+
+function showPage() {
+  const hash = location.hash.slice(1);
+  const page = hash === "segmentation" ? "results"
+    : pages.some((section) => section.id === hash) ? hash : "explore";
+  for (const section of pages) section.hidden = section.id !== page;
+  for (const link of navLinks) {
+    if (link.hash === `#${page}`) link.setAttribute("aria-current", "location");
+    else link.removeAttribute("aria-current");
+  }
+  if (hash === "segmentation") get("segmentation-details").open = true;
+}
+
+window.addEventListener("hashchange", showPage);
+document.querySelector("main").addEventListener("click", (event) => {
+  const link = event.target.closest('.demo-nav a, .explain-header a');
+  if (!link || event.defaultPrevented || event.button !== 0 || event.ctrlKey ||
+      event.metaKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  if (location.hash !== link.hash) history.pushState(null, "", link.hash);
+  showPage();
+  if (link.closest(".explain-header")) get("scan").focus();
+  window.scrollTo(0, 0);
+});
+showPage();
+
 let model;
 let scans;
 let importance;
 let tracers = null;
-let spotlightIndex;
 let imagingViewer;
 let segmentationViewer;
 
 let scan;
 let baseResult;
-let effects;
 let topEffects;
 const removed = new Set();
 
@@ -33,37 +64,29 @@ async function loadJSON(filename) {
 
 const percent = (p) => `${(p * 100).toFixed(2)}%`;
 
-function points(change) {
-  const sign = change < 0 ? "−" : "+";
-  return `${sign}${Math.abs(change * 100).toFixed(2)} pts`;
-}
-
 function makeGlobalList() {
   const biggest = importance.top[0].lossIncrease;
   const rows = importance.top.map((item) => {
     const row = document.createElement("li");
-    if (item.index === spotlightIndex) row.className = "spotlight-row";
 
     const label = document.createElement("span");
     label.textContent = describeFeature(model, item.index).label;
 
     const track = document.createElement("div");
     track.className = "track";
+    track.setAttribute("aria-hidden", "true");
     const fill = document.createElement("div");
     fill.className = "fill";
     fill.style.width = `${(item.lossIncrease / biggest) * 100}%`;
     track.append(fill);
 
-    const value = document.createElement("span");
-    value.textContent = `+${item.lossIncrease.toFixed(4)}`;
-
-    row.append(label, track, value);
+    row.append(label, track);
     return row;
   });
   get("global-list").replaceChildren(...rows);
 }
 
-function makeScanRow(item, biggest) {
+function makeScanRow(item) {
   const button = document.createElement("button");
   button.type = "button";
   button.className = "row";
@@ -76,35 +99,18 @@ function makeScanRow(item, biggest) {
   name.textContent = describeFeature(model, item.index).label;
   const tag = document.createElement("span");
   tag.className = "tag";
-  tag.textContent = "Removed";
+  tag.textContent = "Off";
   label.append(name, tag);
 
-  const diverge = document.createElement("span");
-  diverge.className = "diverge";
-  const bar = document.createElement("span");
-  bar.className = item.effect >= 0 ? "bar tumor" : "bar clear";
-  bar.style.width = `${(Math.abs(item.effect) / biggest) * 50}%`;
-  diverge.append(bar);
-
   const value = document.createElement("span");
-  value.textContent = points(item.effect);
-
-  button.append(label, diverge, value);
+  value.className = "feature-score";
+  value.textContent = `Score without it: ${percent(baseResult.probability - item.effect)}`;
+  button.append(label, value);
   return button;
 }
 
-function showSpotlight() {
-  const z = zScore(model, scan.features, spotlightIndex);
-  const effect = effects[spotlightIndex].effect;
-  get("spotlight-label").textContent = describeFeature(model, spotlightIndex).label;
-  get("spotlight-value").textContent = `${Math.abs(z).toFixed(2)} SD ${z >= 0 ? "above" : "below"} average`;
-  get("spotlight-effect").textContent = points(effect);
-  get("spotlight-rank").textContent = `#${importance.rank[spotlightIndex]} of ${model.inputSize} features`;
-}
-
 function showScanList() {
-  const biggest = Math.max(...topEffects.map((item) => Math.abs(item.effect)));
-  get("scan-list").replaceChildren(...topEffects.map((item) => makeScanRow(item, biggest)));
+  get("scan-list").replaceChildren(...topEffects.map(makeScanRow));
 }
 
 function toggle(index) {
@@ -113,34 +119,31 @@ function toggle(index) {
   update();
 }
 
-function update() {
-  const result = predict(model, removeFeatures(model, scan.features, removed));
+function showPrediction(result) {
   get("tumor-score").textContent = percent(result.probability);
-  get("negative-score").textContent = percent(1 - result.probability);
   get("tumor-bar").value = result.probability;
-  get("negative-bar").value = 1 - result.probability;
   get("prediction").textContent = result.prediction ? "Tumor" : "No tumor";
   get("actual").textContent = scan.actual ? "Tumor" : "No tumor";
   get("correct").textContent = result.prediction === scan.actual ? "Correct" : "Incorrect";
+}
 
+function update() {
+  const result = predict(model, removeFeatures(model, scan.features, removed));
   const note = get("change-note");
   if (removed.size === 0) {
-    note.hidden = true;
+    note.textContent = `Original tumor score: ${percent(baseResult.probability)}`;
   } else {
     const count = removed.size === 1 ? "1 feature" : `${removed.size} features`;
-    const change = result.probability - baseResult.probability;
-    let text = `${count} removed. Tumor probability ${percent(baseResult.probability)} → ${percent(result.probability)} (${points(change)}).`;
-    if (result.prediction !== baseResult.prediction) text += " The prediction flipped.";
+    let text = `Tumor score with ${count} off: ${percent(result.probability)} (original: ${percent(baseResult.probability)}).`;
+    if (result.prediction !== baseResult.prediction) {
+      text += ` Prediction changed to ${result.prediction ? "Tumor" : "No tumor"}.`;
+    }
     note.textContent = text;
-    note.hidden = false;
   }
 
   for (const button of get("scan-list").querySelectorAll("button")) {
     button.setAttribute("aria-pressed", String(removed.has(Number(button.dataset.index))));
   }
-  const spotlightRemoved = removed.has(spotlightIndex);
-  get("spotlight-toggle").setAttribute("aria-pressed", String(spotlightRemoved));
-  get("spotlight-toggle").textContent = spotlightRemoved ? "Restore this feature" : "Remove this feature";
   get("reset").disabled = removed.size === 0;
 }
 
@@ -150,16 +153,18 @@ try {
     loadJSON("scans.json"),
     loadJSON("importance.json"),
   ]);
-  spotlightIndex = featureIndex(model, SPOTLIGHT.channel, SPOTLIGHT.pooling);
-  const options = scans.map((scan, i) => {
+  const examples = document.createElement("optgroup");
+  examples.label = "Demo examples";
+  const otherScans = document.createElement("optgroup");
+  otherScans.label = "Other validation scans";
+  scans.forEach((scan, i) => {
     const option = document.createElement("option");
     option.value = String(i);
-    option.textContent = scan.name;
-    return option;
+    const label = DEMO_SCANS.get(scan.name);
+    option.textContent = label ? `${scan.name} · ${label}` : scan.name;
+    (label ? examples : otherScans).append(option);
   });
-  get("scan").replaceChildren(...options);
-  get("scan").disabled = false;
-  get("predict").disabled = false;
+  get("scan").replaceChildren(examples, otherScans);
   makeGlobalList();
 } catch (error) {
   showError("The demo could not load. Please refresh the page.");
@@ -167,24 +172,22 @@ try {
 }
 
 if (model && scans) {
-  try {
-    tracers = await loadJSON("tracers.json");
-  } catch (error) {
-    console.error(error);
-  }
-  try {
-    const segmentation = await loadJSON("segmentation.json?v=gallery-pet-link");
-    segmentationViewer = renderSegmentation(get("segmentation"), segmentation, model, scans, tracers);
-  } catch (error) {
-    console.error(error);
-  }
-  try {
-    const imaging = await loadJSON("imaging.json?v=ct-pet-315");
-    imagingViewer = renderScanImaging(get("scan-imaging"), imaging, scans, chooseScan);
-  } catch (error) {
-    get("scan-imaging").textContent = "CT/PET images could not load. Please refresh the page.";
-    console.error(error);
-  }
+  await Promise.all([
+    loadJSON("tracers.json").then((data) => { tracers = data; }).catch(console.error),
+    loadJSON("segmentation.json?v=gallery-pet-link").then((data) => {
+      segmentationViewer = renderSegmentation(get("segmentation"), data);
+    }).catch((error) => {
+      get("segmentation").textContent = "The earlier gallery could not load.";
+      console.error(error);
+    }),
+    loadJSON("imaging.json?v=ct-pet-315").then((data) => {
+      imagingViewer = renderScanImaging(get("scan-imaging"), data, scans);
+    }).catch((error) => {
+      get("scan-imaging").textContent = "CT/PET images could not load. Please refresh the page.";
+      console.error(error);
+    }),
+  ]);
+  renderResults(get("classifier-results"), model, scans, tracers);
 }
 
 function chooseScan(index) {
@@ -198,34 +201,19 @@ function syncScanImages() {
   const index = Number(get("scan").value);
   imagingViewer?.selectScan(index);
   segmentationViewer?.selectScan(index);
+  get("explain-scan").textContent = scans[index].name;
 }
 
 get("scan").addEventListener("change", () => {
-  for (const id of ["tumor-score", "negative-score", "prediction", "actual", "correct"]) get(id).textContent = "—";
+  for (const id of ["tumor-score", "prediction", "actual", "correct"]) get(id).textContent = "—";
   get("tumor-bar").value = 0;
-  get("negative-bar").value = 0;
   get("explain").hidden = true;
-  get("change-note").hidden = true;
-  get("tracer-note").hidden = true;
+  get("explain-prompt").hidden = false;
   get("error").hidden = true;
   syncScanImages();
 });
 
 get("segmentation").addEventListener("segmentation-select", (event) => chooseScan(event.detail.scanIndex));
-
-function showTracer() {
-  const note = get("tracer-note");
-  if (!tracers) {
-    note.hidden = true;
-    return;
-  }
-  const tracer = tracers[Number(get("scan").value)];
-  note.textContent = `Tracer: ${tracer.toUpperCase()}`;
-  if (tracer === "psma") {
-    note.innerHTML = `Tracer: PSMA. <a href="#segmentation">See how segmentation does on PSMA.</a>`;
-  }
-  note.hidden = false;
-}
 
 get("prediction-form").addEventListener("submit", (event) => {
   event.preventDefault();
@@ -234,16 +222,16 @@ get("prediction-form").addEventListener("submit", (event) => {
     scan = scans[Number(get("scan").value)];
     baseResult = predict(model, scan.features);
     removed.clear();
-    effects = featureEffects(model, scan.features);
-    topEffects = effects
-      .slice()
+    topEffects = featureEffects(model, scan.features)
       .sort((a, b) => Math.abs(b.effect) - Math.abs(a.effect))
       .slice(0, TOP_N);
-    showSpotlight();
     showScanList();
+    showPrediction(baseResult);
     update();
-    showTracer();
+    const focusExplanation = document.activeElement === get("explain-predict");
+    get("explain-prompt").hidden = true;
     get("explain").hidden = false;
+    if (focusExplanation) get("scan-list").querySelector("button")?.focus();
     get("error").hidden = true;
   } catch (error) {
     showError("Unable to predict this scan. Please try again.");
@@ -256,8 +244,6 @@ get("scan-list").addEventListener("click", (event) => {
   if (button) toggle(Number(button.dataset.index));
 });
 
-get("spotlight-toggle").addEventListener("click", () => toggle(spotlightIndex));
-
 get("remove-all").addEventListener("click", () => {
   for (const item of topEffects) removed.add(item.index);
   update();
@@ -269,6 +255,9 @@ get("reset").addEventListener("click", () => {
 });
 
 if (model && scans) {
+  get("scan").disabled = false;
+  get("predict").disabled = false;
+  get("explain-predict").disabled = false;
   syncScanImages();
   const requestedScan = Number(new URLSearchParams(location.search).get("scan"));
   if (Number.isInteger(requestedScan) && requestedScan >= 1 && requestedScan <= scans.length) {

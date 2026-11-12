@@ -1,5 +1,3 @@
-import { predict } from "./inference.mjs";
-
 const VIEWS = ["axial", "coronal", "sagittal"];
 const TABS = [
   { key: "lesion", label: "Strongest point inside the tumor" },
@@ -10,34 +8,6 @@ const SMALL_LESION = 500;
 
 const pct = (value) => `${Math.round(value * 100)}%`;
 const tracerName = (tracer) => tracer.toUpperCase();
-
-function classifierStats(model, scans, tracers, tracer) {
-  let n = 0, correct = 0, predictedTumor = 0, tumors = 0, caught = 0, clears = 0, cleared = 0;
-  scans.forEach((scan, i) => {
-    if (tracers[i] !== tracer) return;
-    const prediction = predict(model, scan.features).prediction;
-    n++;
-    if (prediction === scan.actual) correct++;
-    if (prediction) predictedTumor++;
-    if (scan.actual) {
-      tumors++;
-      if (prediction) caught++;
-    } else {
-      clears++;
-      if (!prediction) cleared++;
-    }
-  });
-  const sensitivity = tumors ? caught / tumors : 0;
-  const specificity = clears ? cleared / clears : 0;
-  return {
-    n,
-    predictedTumor,
-    accuracy: correct / n,
-    balancedAccuracy: (sensitivity + specificity) / 2,
-    sensitivity,
-    specificity,
-  };
-}
 
 function caption(sample) {
   let text;
@@ -69,25 +39,6 @@ function statPanel(data, tracer) {
     </div>`;
 }
 
-function classifierPanel(model, scans, tracers, tracer) {
-  const s = classifierStats(model, scans, tracers, tracer);
-  let extra = "";
-  if (tracer === "psma") {
-    extra = `<p class="note">Predicts Tumor for ${s.predictedTumor} of ${s.n} PSMA scans. Most PSMA scans in this set have tumors, so accuracy looks high.</p>`;
-  }
-  return `
-    <div class="panel">
-      <h3>${tracerName(tracer)} (${s.n} scans)</h3>
-      <div class="big-numbers">
-        <div><span>Accuracy</span><strong>${(s.accuracy * 100).toFixed(1)}%</strong></div>
-        <div><span>Balanced</span><strong>${(s.balancedAccuracy * 100).toFixed(1)}%</strong></div>
-        <div><span>Sensitivity</span><strong>${(s.sensitivity * 100).toFixed(1)}%</strong></div>
-        <div><span>Specificity</span><strong>${(s.specificity * 100).toFixed(1)}%</strong></div>
-      </div>
-      ${extra}
-    </div>`;
-}
-
 function sampleRow(sample) {
   const small = sample.lesionVoxels < SMALL_LESION ? '<span class="small-tag">small lesion</span>' : "";
   const width = sample.dice * 100;
@@ -114,18 +65,15 @@ function tableRow(sample) {
     </tr>`;
 }
 
-export function renderSegmentation(container, data, model, scans, tracers) {
+export function renderSegmentation(container, data) {
   const bySample = new Map(data.samples.map((s) => [s.sample, s]));
-  const hasTracers = Array.isArray(tracers) && tracers.length === scans.length;
   const groupRows = (tracer) =>
     data.samples.filter((s) => s.tracer === tracer).map(sampleRow).join("");
 
   container.innerHTML = `
-    <h2>Earlier segmentation results on 10 scans</h2>
-    <p>This is a separate nnU-Net model that outlines tumors voxel by voxel. It was checked on 10 validation scans against expert outlines. <strong>Recall</strong> is the share of the real tumor it found, <strong>precision</strong> is the share of what it flagged that really was tumor, and <strong>Dice</strong> combines both into one overlap score from 0 to 1.</p>
+    <p class="note">Earlier nnU-Net results on 10 validation scans. Dice measures overlap with expert outlines.</p>
 
     <div class="cards">${statPanel(data, "fdg")}${statPanel(data, "psma")}</div>
-    <p class="note">FDG and PSMA are the two PET tracers in this dataset. The model works well on FDG and poorly on PSMA, especially on small lesions.</p>
 
     <p class="note gallery-status" hidden>Choose a sample below to select its matching scan and view its earlier CT heatmap.</p>
     <section class="panel">
@@ -146,7 +94,7 @@ export function renderSegmentation(container, data, model, scans, tracers) {
 
     <section class="panel segmentation-viewer">
       <h3 class="viewer-title"></h3>
-      <p class="note">Earlier CT heatmaps. <a class="matched-imaging-link">View matching CT and PET heatmaps</a></p>
+      <p class="note"><a class="matched-imaging-link">View matching CT and PET heatmaps</a></p>
       <div class="tabs" role="tablist">
         ${TABS.map((tab) => `<button type="button" class="secondary" role="tab" data-tab="${tab.key}" aria-selected="false">${tab.label}</button>`).join("")}
       </div>
@@ -162,17 +110,9 @@ export function renderSegmentation(container, data, model, scans, tracers) {
         <span><span class="legend-gradient"></span> Tumor probability 0 → 1</span>
         <span><span class="legend-line"></span> Expert tumor outline</span>
       </p>
-      <p class="note">A very dark tint means the model sees almost no tumor there. Orientation corrected for display; left/right not verified. Click a panel to enlarge it.</p>
+      <p class="note">Left/right orientation unverified.</p>
     </section>
 
-    ${hasTracers ? `
-    <section>
-      <h3>The scan classifier, split by tracer</h3>
-      <p class="note">This is the classifier from the top of the page, not the segmentation model. Sensitivity is the share of tumor scans it flags; specificity is the share of no-tumor scans it clears.</p>
-      <div class="cards">${classifierPanel(model, scans, tracers, "fdg")}${classifierPanel(model, scans, tracers, "psma")}</div>
-    </section>` : ""}
-
-    <p class="note">These earlier results cover 10 validation scans. Selecting a sample also selects its matching scan in the dropdown. Threshold 0.5, checkpoint ${data.checkpointSha256Short}.</p>
 
     <dialog class="enlarged">
       <img alt="">

@@ -28,12 +28,6 @@ Feature layout (from `extract_features.py`):
 - Indices 320–639 are the patch-max of channel `i - 320`.
 - Channel 286 patch-max is index 606.
 
-To spotlight a different feature, change `SPOTLIGHT` at the top of `docs/app.mjs`:
-
-```js
-const SPOTLIGHT = { channel: 286, pooling: "patch-max" };
-```
-
 Regenerate `docs/importance.json` after `model.json` or `scans.json` changes (needs numpy):
 
 ```bash

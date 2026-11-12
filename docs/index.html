@@ -3,70 +3,78 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
+  <meta name="color-scheme" content="dark">
   <title>Tumor Detection</title>
-  <link rel="stylesheet" href="./style.css?v=ep760-v3">
-  <script type="module" src="./app.mjs?v=ep760-v3"></script>
+  <link rel="stylesheet" href="./style.css?v=feature-explainer">
+  <script type="module" src="./app.mjs?v=scan-heading"></script>
 </head>
 <body>
   <main>
     <h1>Tumor Detection</h1>
-    <p>These are validation scans from the AutoPET dataset. The demo runs the classifier on features already extracted from each PET/CT scan.</p>
-    <form id="prediction-form">
-      <label class="field" for="scan">Select a Scan
-        <select id="scan" disabled><option>Loading scans…</option></select>
-      </label>
-      <button id="predict" type="submit" disabled>Predict</button>
-    </form>
+    <p class="intro">315 PET/CT validation scans from AutoPET.</p>
+    <nav class="demo-nav" aria-label="Demo sections">
+      <a href="#explore" aria-current="location">Explore a Scan</a>
+      <a href="#how-it-decides">How It Decides</a>
+      <a href="#results">Results</a>
+    </nav>
     <p id="error" role="alert" hidden></p>
-    <section class="panel" aria-label="Probabilities">
-      <h2>Probabilities</h2>
-      <div class="bar-label"><span>Tumor</span><output id="tumor-score">—</output></div>
-      <progress id="tumor-bar" max="1" value="0" aria-label="Tumor probability"></progress>
-      <div class="bar-label"><span>No tumor</span><output id="negative-score">—</output></div>
-      <progress id="negative-bar" max="1" value="0" aria-label="No tumor probability"></progress>
-      <p id="change-note" aria-live="polite" hidden></p>
-    </section>
-    <section class="results" aria-live="polite" aria-atomic="true">
-      <div class="panel"><h2>Prediction</h2><output id="prediction">—</output></div>
-      <div class="panel"><h2>Actual Result</h2><output id="actual">—</output><p id="tracer-note" hidden></p></div>
-      <div class="panel"><h2>Correct?</h2><output id="correct">—</output></div>
-    </section>
-    <section id="scan-imaging" aria-label="Selected scan CT and PET"></section>
-    <section id="explain" hidden>
-      <h2>What is the classifier relying on?</h2>
-      <p>The classifier reads 640 numbers per scan. The first 320 are the average of each encoder channel across the scan, and the last 320 are the maximum of each channel. Removing a feature sets it to its training average, so the classifier sees nothing unusual there, and then the prediction is recalculated.</p>
-      <div class="panel spotlight">
-        <h3 id="spotlight-label">—</h3>
-        <dl>
-          <div><dt>This scan's value</dt><dd id="spotlight-value">—</dd></div>
-          <div><dt>Effect on this scan</dt><dd id="spotlight-effect">—</dd></div>
-          <div><dt>Rank across all scans</dt><dd id="spotlight-rank">—</dd></div>
-        </dl>
-        <button id="spotlight-toggle" class="secondary" type="button" aria-pressed="false">Remove this feature</button>
-        <p class="note">The rank is measured across all 315 scans. The effect applies to this scan only.</p>
+    <section id="explore" class="demo-page" aria-label="Explore a Scan">
+      <form id="prediction-form">
+        <label class="field" for="scan">Select a Scan
+          <select id="scan" disabled><option>Loading scans…</option></select>
+        </label>
+      </form>
+      <div class="explore-layout">
+        <section id="scan-imaging" aria-label="Selected scan CT and PET"></section>
+        <section class="panel prediction-panel" aria-label="Classifier result">
+          <button id="predict" type="submit" form="prediction-form" disabled>Predict</button>
+          <div aria-live="polite" aria-atomic="true">
+            <div class="bar-label"><label for="tumor-bar">Tumor score</label><output id="tumor-score">—</output></div>
+            <progress id="tumor-bar" max="1" value="0"></progress>
+            <dl class="prediction-details">
+              <div><dt>Prediction</dt><dd id="prediction">—</dd></div>
+              <div><dt>Dataset label</dt><dd id="actual">—</dd></div>
+              <div><dt>Correct?</dt><dd id="correct">—</dd></div>
+            </dl>
+          </div>
+        </section>
       </div>
-      <div class="cards">
+    </section>
+    <section id="how-it-decides" class="demo-page" aria-label="How It Decides" hidden>
+      <div class="explain-header">
+        <h2 id="explain-scan">Selected scan</h2>
+        <a href="#explore">Change scan</a>
+      </div>
+      <div id="explain-prompt" class="panel">
+        <p>Run a prediction to see feature importance.</p>
+        <button id="explain-predict" class="secondary" type="submit" form="prediction-form" disabled>Predict</button>
+      </div>
+      <div id="explain" hidden>
+        <div id="change-note" class="panel" role="status"></div>
         <div class="panel">
-          <h3>Most important across all 315 scans</h3>
-          <p class="note">Rise in loss when the feature is shuffled between scans.</p>
-          <ol id="global-list" class="global-list"></ol>
-        </div>
-        <div class="panel">
-          <h3>Top 10 features for this scan</h3>
-          <p class="note legend">
-            <span class="swatch tumor"></span>Pushes toward Tumor (right)
-            <span class="swatch clear"></span>Pushes toward No tumor (left)
-          </p>
+          <h3>What changes the score for this scan?</h3>
+          <p class="note">Each channel tracks a pattern the model learned. <strong>Peak</strong> is its highest value in any part of the scan. <strong>Average</strong> is its mean across all parts.</p>
+          <p class="note">Select a row to turn off that feature by setting it to its training average. Each row shows the effect of turning off that feature alone.</p>
           <div id="scan-list" class="scan-list"></div>
           <div class="actions">
-            <button id="remove-all" class="secondary" type="button">Remove all 10</button>
+            <button id="remove-all" class="secondary" type="button">Turn off all 5</button>
             <button id="reset" class="secondary" type="button" disabled>Reset</button>
           </div>
         </div>
+        <details class="panel global-features">
+          <summary>Feature importance across all 315 scans</summary>
+          <p class="note">Longer bars mean the model did worse when that feature was shuffled between scans.</p>
+          <ol id="global-list" class="global-list"></ol>
+        </details>
       </div>
     </section>
-    <section id="segmentation" aria-label="Segmentation results"></section>
+    <section id="results" class="demo-page" aria-label="Results" hidden>
+      <div id="classifier-results"></div>
+      <details id="segmentation-details">
+        <summary>Earlier segmentation gallery</summary>
+        <section id="segmentation" aria-label="Earlier segmentation results"></section>
+      </details>
+    </section>
   </main>
 </body>
 </html>
