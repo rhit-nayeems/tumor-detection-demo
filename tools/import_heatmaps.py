@@ -9,7 +9,7 @@ import shutil
 import statistics
 
 ROOT = Path(__file__).resolve().parents[1]
-SCANS_SHA256 = 'd3504e8e194151f78e92c9c84930a58a37a74c29ce27e7da6799d6f6eca7d2ac'
+SCANS_SHA256 = '276bfa0e58fda45c7d88d7f6adffd089f78c03b1494e5b18196c6bc945c4dada'
 VIEWS = ('axial', 'coronal', 'sagittal')
 
 

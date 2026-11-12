@@ -83,7 +83,7 @@ button.row[aria-pressed="true"] .bar { opacity: .35; }
 .imaging-viewer h4 { margin: 20px 0 8px; }
 #segmentation section { margin-top: 16px; }
 #tracer-note { margin: 8px 0 0; font-size: 14px; }
-.big-numbers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 12px 0; }
+.big-numbers { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 12px; margin: 12px 0; }
 .big-numbers span { display: block; font-size: 14px; color: var(--muted); }
 .big-numbers strong { display: block; font-size: 33.8px; line-height: 1.2; }
 .seg-heading { font-size: 15.6px; margin: 12px 0 6px; color: var(--muted); }

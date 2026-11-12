@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np
 
 DOCS = Path(__file__).resolve().parent.parent / "docs"
-DEFAULT_NPZ = Path(__file__).resolve().parent.parent.parent / "tumor-detection-model" / "features" / "encoder_features.npz"
+DEFAULT_NPZ = Path(__file__).resolve().parent.parent.parent / "tumor-detection-model" / "features" / "encoder_features_ep760.npz"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("npz", nargs="?", default=str(DEFAULT_NPZ))

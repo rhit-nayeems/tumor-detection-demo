@@ -1,5 +1,5 @@
 import { predict, describeFeature, featureIndex, removeFeatures, featureEffects, zScore } from "./inference.mjs";
-import { renderSegmentation } from "./segmentation.mjs?v=gallery-pet-link";
+import { renderSegmentation } from "./segmentation.mjs?v=ep760-v3";
 import { renderScanImaging } from "./scan-imaging.mjs?v=ct-pet-315";
 
 const SPOTLIGHT = { channel: 286, pooling: "patch-max" };

@@ -27,12 +27,15 @@ function classifierStats(model, scans, tracers, tracer) {
       if (!prediction) cleared++;
     }
   });
+  const sensitivity = tumors ? caught / tumors : 0;
+  const specificity = clears ? cleared / clears : 0;
   return {
     n,
     predictedTumor,
     accuracy: correct / n,
-    sensitivity: tumors ? caught / tumors : 0,
-    specificity: clears ? cleared / clears : 0,
+    balancedAccuracy: (sensitivity + specificity) / 2,
+    sensitivity,
+    specificity,
   };
 }
 
@@ -77,6 +80,7 @@ function classifierPanel(model, scans, tracers, tracer) {
       <h3>${tracerName(tracer)} (${s.n} scans)</h3>
       <div class="big-numbers">
         <div><span>Accuracy</span><strong>${(s.accuracy * 100).toFixed(1)}%</strong></div>
+        <div><span>Balanced</span><strong>${(s.balancedAccuracy * 100).toFixed(1)}%</strong></div>
         <div><span>Sensitivity</span><strong>${(s.sensitivity * 100).toFixed(1)}%</strong></div>
         <div><span>Specificity</span><strong>${(s.specificity * 100).toFixed(1)}%</strong></div>
       </div>
