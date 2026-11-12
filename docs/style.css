@@ -152,6 +152,48 @@ dialog button { margin-top: 12px; }
   .prediction-panel h2 { margin-bottom: 20px; }
   .case-button { gap: 8px; }
 }
+@media (min-width: 1000px) and (max-height: 900px) {
+  .sidebar { width: 190px; padding: 24px 18px; }
+  .brand { font-size: 22px; }
+  .demo-nav { margin-top: 32px; }
+  .demo-nav a { font-size: 16px; padding: 10px 8px; }
+  main { margin-left: 190px; padding: 22px 24px 24px; }
+  .page-header { padding-bottom: 16px; margin-bottom: 16px; }
+  h1 { font-size: 32px; }
+  .page-header p { font-size: 16px; }
+  select { font-size: 17px; padding-top: 7px; padding-bottom: 7px; margin-top: 4px; }
+  .field { font-size: 15px; }
+  button.secondary { font-size: 15px; padding: 7px 12px; }
+  .demo-cases { gap: 10px; margin: 14px 0 18px; }
+  .case-button { padding: 7px 10px; gap: 10px; }
+  .case-button img { width: 40px; height: 40px; }
+  .case-button strong { font-size: 16px; }
+  .case-button small { font-size: 14px; }
+  .explore-layout { grid-template-columns: minmax(0, 1fr) 260px; gap: 18px; }
+  .imaging-controls { padding: 10px 14px; gap: 10px; }
+  .imaging-title { font-size: 18px; }
+  .plane-control, .overlay-control { font-size: 14px; }
+  .plane-control select { font-size: 14px; }
+  button.view-button img { height: clamp(220px, calc(100dvh - 400px), 480px); }
+  .imaging-details { padding: 10px 14px; }
+  .imaging-details summary { font-size: 15px; }
+  .prediction-panel { padding: 16px; }
+  .prediction-panel h2 { font-size: 18px; margin-bottom: 12px; }
+  #tumor-score { font-size: 46px; margin-bottom: 12px; }
+  .prediction-details { margin: 12px 0; }
+  .prediction-details div { padding: 8px 0; }
+  .prediction-details dt { font-size: 15px; }
+  .prediction-details dd { font-size: 17px; }
+  #predict { font-size: 18px; padding: 8px 14px; }
+  .explain-link { margin-top: 12px; font-size: 14px; }
+  .result-summary { margin-bottom: 18px; }
+  .result-summary div { padding: 16px 22px; }
+  .result-summary dd { font-size: 32px; }
+  .metrics-panel { padding: 18px; margin-bottom: 18px; }
+  .metrics-panel h2 { font-size: 21px; }
+  .table-scroll { margin: 16px -18px; }
+  th, td { padding: 12px 18px; }
+}
 @media (max-width: 800px) {
   .sidebar { position: static; width: auto; padding: 20px 22px 0; border-right: 0; border-bottom: 1px solid var(--border); }
   .brand { font-size: 23px; }
