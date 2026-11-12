@@ -1,5 +1,5 @@
 :root {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
   font-size: 18.2px;
   color-scheme: dark;
   color: #e5e5e5;
@@ -126,13 +126,17 @@ button.view-button img { display: block; width: 100%; height: auto; }
 dialog { max-width: 94vw; max-height: 94vh; padding: 16px; color: inherit; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; }
 dialog::backdrop { background: rgba(0, 0, 0, .7); }
 dialog img { display: block; max-width: 100%; max-height: 78vh; margin: 0 auto; }
-@media (max-width: 760px) {
+@media (max-width: 912px) {
   .explore-layout { grid-template-columns: 1fr; }
+  .cards { grid-template-columns: 1fr; }
   .views { grid-template-columns: 1fr; }
   .big-numbers strong { font-size: 26px; }
   button.sample-row { grid-template-columns: 1fr; gap: 6px; }
 }
-@media (max-width: 760px) {
-  .cards { grid-template-columns: 1fr; }
+@media (max-width: 720px) { main { padding: 0 16px 24px; margin-top: 24px; } }
+@supports (zoom: 1.2) {
+  main { zoom: 1.2; }
+  .scan-pair .view-button img { height: clamp(110px, 23.33vw, 320px); }
+  dialog { max-width: calc(94vw / 1.2); max-height: calc(94vh / 1.2); }
+  dialog img { max-height: calc(78vh / 1.2); }
 }
-@media (max-width: 600px) { main { padding: 0 16px 24px; margin-top: 24px; } }
